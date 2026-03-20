@@ -1,0 +1,1586 @@
+{
+  "updated_at": "2026/03/20",
+  "companies": [
+    {
+      "company_id": "8962",
+      "company_name": "マネーフォワード",
+      "scored_at": "2026-03-20",
+      "volume_score": 20.0,
+      "recent_activity_score": 10.0,
+      "category_mix_score": 13.5,
+      "consistency_score": 7.7,
+      "growth_trajectory_score": 13.5,
+      "impact_score": 30.0,
+      "total_score": 94.8,
+      "grade": "S",
+      "total_releases": 1240,
+      "active_months": 88,
+      "date_from": "2018-12-01",
+      "date_to": "2026-03-19",
+      "top_categories": {
+        "その他": 650,
+        "新製品・新サービス": 191,
+        "パートナーシップ": 186,
+        "受賞・認定": 75,
+        "資金調達": 66
+      },
+      "category": "SaaS/FinTech",
+      "top_categories_list": [
+        {
+          "name": "その他",
+          "count": 650
+        },
+        {
+          "name": "新製品・新サービス",
+          "count": 191
+        },
+        {
+          "name": "パートナーシップ",
+          "count": 186
+        },
+        {
+          "name": "受賞・認定",
+          "count": 75
+        },
+        {
+          "name": "資金調達",
+          "count": 66
+        }
+      ],
+      "monthly_releases": [
+        {
+          "year_month": "2023-04",
+          "count": 16
+        },
+        {
+          "year_month": "2023-05",
+          "count": 6
+        },
+        {
+          "year_month": "2023-06",
+          "count": 17
+        },
+        {
+          "year_month": "2023-07",
+          "count": 18
+        },
+        {
+          "year_month": "2023-08",
+          "count": 20
+        },
+        {
+          "year_month": "2023-09",
+          "count": 16
+        },
+        {
+          "year_month": "2023-10",
+          "count": 15
+        },
+        {
+          "year_month": "2023-11",
+          "count": 13
+        },
+        {
+          "year_month": "2023-12",
+          "count": 18
+        },
+        {
+          "year_month": "2024-01",
+          "count": 13
+        },
+        {
+          "year_month": "2024-02",
+          "count": 14
+        },
+        {
+          "year_month": "2024-03",
+          "count": 14
+        },
+        {
+          "year_month": "2024-04",
+          "count": 13
+        },
+        {
+          "year_month": "2024-05",
+          "count": 14
+        },
+        {
+          "year_month": "2024-06",
+          "count": 13
+        },
+        {
+          "year_month": "2024-07",
+          "count": 14
+        },
+        {
+          "year_month": "2024-08",
+          "count": 15
+        },
+        {
+          "year_month": "2024-09",
+          "count": 17
+        },
+        {
+          "year_month": "2024-10",
+          "count": 12
+        },
+        {
+          "year_month": "2024-11",
+          "count": 16
+        },
+        {
+          "year_month": "2024-12",
+          "count": 16
+        },
+        {
+          "year_month": "2025-01",
+          "count": 8
+        },
+        {
+          "year_month": "2025-02",
+          "count": 12
+        },
+        {
+          "year_month": "2025-03",
+          "count": 13
+        },
+        {
+          "year_month": "2025-04",
+          "count": 17
+        },
+        {
+          "year_month": "2025-05",
+          "count": 7
+        },
+        {
+          "year_month": "2025-06",
+          "count": 14
+        },
+        {
+          "year_month": "2025-07",
+          "count": 6
+        },
+        {
+          "year_month": "2025-08",
+          "count": 20
+        },
+        {
+          "year_month": "2025-09",
+          "count": 16
+        },
+        {
+          "year_month": "2025-10",
+          "count": 36
+        },
+        {
+          "year_month": "2025-11",
+          "count": 19
+        },
+        {
+          "year_month": "2025-12",
+          "count": 24
+        },
+        {
+          "year_month": "2026-01",
+          "count": 11
+        },
+        {
+          "year_month": "2026-02",
+          "count": 11
+        },
+        {
+          "year_month": "2026-03",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "company_id": "7098",
+      "company_name": "HENNGE",
+      "scored_at": "2026-03-20",
+      "volume_score": 10.8,
+      "recent_activity_score": 10.0,
+      "category_mix_score": 15.0,
+      "consistency_score": 7.1,
+      "growth_trajectory_score": 13.2,
+      "impact_score": 30.0,
+      "total_score": 86.1,
+      "grade": "S",
+      "total_releases": 274,
+      "active_months": 77,
+      "date_from": "2013-04-05",
+      "date_to": "2026-03-19",
+      "top_categories": {
+        "パートナーシップ": 148,
+        "その他": 88,
+        "新製品・新サービス": 10,
+        "導入事例": 9,
+        "受賞・認定": 7
+      },
+      "category": "SaaS",
+      "top_categories_list": [
+        {
+          "name": "パートナーシップ",
+          "count": 148
+        },
+        {
+          "name": "その他",
+          "count": 88
+        },
+        {
+          "name": "新製品・新サービス",
+          "count": 10
+        },
+        {
+          "name": "導入事例",
+          "count": 9
+        },
+        {
+          "name": "受賞・認定",
+          "count": 7
+        }
+      ],
+      "monthly_releases": [
+        {
+          "year_month": "2023-01",
+          "count": 1
+        },
+        {
+          "year_month": "2023-02",
+          "count": 4
+        },
+        {
+          "year_month": "2023-03",
+          "count": 5
+        },
+        {
+          "year_month": "2023-04",
+          "count": 4
+        },
+        {
+          "year_month": "2023-05",
+          "count": 2
+        },
+        {
+          "year_month": "2023-06",
+          "count": 2
+        },
+        {
+          "year_month": "2023-07",
+          "count": 1
+        },
+        {
+          "year_month": "2023-08",
+          "count": 6
+        },
+        {
+          "year_month": "2023-09",
+          "count": 1
+        },
+        {
+          "year_month": "2023-10",
+          "count": 5
+        },
+        {
+          "year_month": "2023-11",
+          "count": 2
+        },
+        {
+          "year_month": "2023-12",
+          "count": 1
+        },
+        {
+          "year_month": "2024-01",
+          "count": 3
+        },
+        {
+          "year_month": "2024-03",
+          "count": 6
+        },
+        {
+          "year_month": "2024-04",
+          "count": 1
+        },
+        {
+          "year_month": "2024-05",
+          "count": 5
+        },
+        {
+          "year_month": "2024-06",
+          "count": 4
+        },
+        {
+          "year_month": "2024-07",
+          "count": 7
+        },
+        {
+          "year_month": "2024-08",
+          "count": 3
+        },
+        {
+          "year_month": "2024-09",
+          "count": 2
+        },
+        {
+          "year_month": "2024-10",
+          "count": 5
+        },
+        {
+          "year_month": "2024-11",
+          "count": 2
+        },
+        {
+          "year_month": "2025-02",
+          "count": 3
+        },
+        {
+          "year_month": "2025-03",
+          "count": 7
+        },
+        {
+          "year_month": "2025-04",
+          "count": 5
+        },
+        {
+          "year_month": "2025-05",
+          "count": 2
+        },
+        {
+          "year_month": "2025-06",
+          "count": 4
+        },
+        {
+          "year_month": "2025-07",
+          "count": 6
+        },
+        {
+          "year_month": "2025-08",
+          "count": 5
+        },
+        {
+          "year_month": "2025-09",
+          "count": 6
+        },
+        {
+          "year_month": "2025-10",
+          "count": 8
+        },
+        {
+          "year_month": "2025-11",
+          "count": 5
+        },
+        {
+          "year_month": "2025-12",
+          "count": 6
+        },
+        {
+          "year_month": "2026-01",
+          "count": 6
+        },
+        {
+          "year_month": "2026-02",
+          "count": 7
+        },
+        {
+          "year_month": "2026-03",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "company_id": "36528",
+      "company_name": "LayerX",
+      "scored_at": "2026-03-20",
+      "volume_score": 20.0,
+      "recent_activity_score": 10.0,
+      "category_mix_score": 10.6,
+      "consistency_score": 5.5,
+      "growth_trajectory_score": 6.2,
+      "impact_score": 30.0,
+      "total_score": 82.4,
+      "grade": "A",
+      "total_releases": 532,
+      "active_months": 70,
+      "date_from": "2018-11-13",
+      "date_to": "2026-03-18",
+      "top_categories": {
+        "その他": 275,
+        "導入事例": 85,
+        "新製品・新サービス": 80,
+        "パートナーシップ": 47,
+        "資金調達": 18
+      },
+      "category": "SaaS/FinTech",
+      "top_categories_list": [
+        {
+          "name": "その他",
+          "count": 275
+        },
+        {
+          "name": "導入事例",
+          "count": 85
+        },
+        {
+          "name": "新製品・新サービス",
+          "count": 80
+        },
+        {
+          "name": "パートナーシップ",
+          "count": 47
+        },
+        {
+          "name": "資金調達",
+          "count": 18
+        }
+      ],
+      "monthly_releases": [
+        {
+          "year_month": "2023-04",
+          "count": 7
+        },
+        {
+          "year_month": "2023-05",
+          "count": 9
+        },
+        {
+          "year_month": "2023-06",
+          "count": 15
+        },
+        {
+          "year_month": "2023-07",
+          "count": 5
+        },
+        {
+          "year_month": "2023-08",
+          "count": 11
+        },
+        {
+          "year_month": "2023-09",
+          "count": 9
+        },
+        {
+          "year_month": "2023-10",
+          "count": 8
+        },
+        {
+          "year_month": "2023-11",
+          "count": 8
+        },
+        {
+          "year_month": "2023-12",
+          "count": 8
+        },
+        {
+          "year_month": "2024-01",
+          "count": 3
+        },
+        {
+          "year_month": "2024-02",
+          "count": 6
+        },
+        {
+          "year_month": "2024-03",
+          "count": 2
+        },
+        {
+          "year_month": "2024-04",
+          "count": 6
+        },
+        {
+          "year_month": "2024-05",
+          "count": 3
+        },
+        {
+          "year_month": "2024-06",
+          "count": 1
+        },
+        {
+          "year_month": "2024-07",
+          "count": 6
+        },
+        {
+          "year_month": "2024-08",
+          "count": 11
+        },
+        {
+          "year_month": "2024-09",
+          "count": 9
+        },
+        {
+          "year_month": "2024-10",
+          "count": 9
+        },
+        {
+          "year_month": "2024-11",
+          "count": 11
+        },
+        {
+          "year_month": "2024-12",
+          "count": 9
+        },
+        {
+          "year_month": "2025-01",
+          "count": 8
+        },
+        {
+          "year_month": "2025-02",
+          "count": 12
+        },
+        {
+          "year_month": "2025-03",
+          "count": 8
+        },
+        {
+          "year_month": "2025-04",
+          "count": 11
+        },
+        {
+          "year_month": "2025-05",
+          "count": 15
+        },
+        {
+          "year_month": "2025-06",
+          "count": 19
+        },
+        {
+          "year_month": "2025-07",
+          "count": 18
+        },
+        {
+          "year_month": "2025-08",
+          "count": 11
+        },
+        {
+          "year_month": "2025-09",
+          "count": 13
+        },
+        {
+          "year_month": "2025-10",
+          "count": 11
+        },
+        {
+          "year_month": "2025-11",
+          "count": 6
+        },
+        {
+          "year_month": "2025-12",
+          "count": 13
+        },
+        {
+          "year_month": "2026-01",
+          "count": 12
+        },
+        {
+          "year_month": "2026-02",
+          "count": 7
+        },
+        {
+          "year_month": "2026-03",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "company_id": "49627",
+      "company_name": "Sansan",
+      "scored_at": "2026-03-20",
+      "volume_score": 19.5,
+      "recent_activity_score": 10.0,
+      "category_mix_score": 6.5,
+      "consistency_score": 8.0,
+      "growth_trajectory_score": 7.5,
+      "impact_score": 30.0,
+      "total_score": 81.4,
+      "grade": "A",
+      "total_releases": 739,
+      "active_months": 78,
+      "date_from": "2019-10-06",
+      "date_to": "2026-03-19",
+      "top_categories": {
+        "その他": 454,
+        "導入事例": 109,
+        "パートナーシップ": 73,
+        "新製品・新サービス": 43,
+        "受賞・認定": 24
+      },
+      "category": "SaaS",
+      "top_categories_list": [
+        {
+          "name": "その他",
+          "count": 454
+        },
+        {
+          "name": "導入事例",
+          "count": 109
+        },
+        {
+          "name": "パートナーシップ",
+          "count": 73
+        },
+        {
+          "name": "新製品・新サービス",
+          "count": 43
+        },
+        {
+          "name": "受賞・認定",
+          "count": 24
+        }
+      ],
+      "monthly_releases": [
+        {
+          "year_month": "2023-04",
+          "count": 14
+        },
+        {
+          "year_month": "2023-05",
+          "count": 8
+        },
+        {
+          "year_month": "2023-06",
+          "count": 9
+        },
+        {
+          "year_month": "2023-07",
+          "count": 10
+        },
+        {
+          "year_month": "2023-08",
+          "count": 12
+        },
+        {
+          "year_month": "2023-09",
+          "count": 10
+        },
+        {
+          "year_month": "2023-10",
+          "count": 10
+        },
+        {
+          "year_month": "2023-11",
+          "count": 18
+        },
+        {
+          "year_month": "2023-12",
+          "count": 8
+        },
+        {
+          "year_month": "2024-01",
+          "count": 8
+        },
+        {
+          "year_month": "2024-02",
+          "count": 13
+        },
+        {
+          "year_month": "2024-03",
+          "count": 11
+        },
+        {
+          "year_month": "2024-04",
+          "count": 8
+        },
+        {
+          "year_month": "2024-05",
+          "count": 12
+        },
+        {
+          "year_month": "2024-06",
+          "count": 5
+        },
+        {
+          "year_month": "2024-07",
+          "count": 12
+        },
+        {
+          "year_month": "2024-08",
+          "count": 14
+        },
+        {
+          "year_month": "2024-09",
+          "count": 13
+        },
+        {
+          "year_month": "2024-10",
+          "count": 8
+        },
+        {
+          "year_month": "2024-11",
+          "count": 7
+        },
+        {
+          "year_month": "2024-12",
+          "count": 8
+        },
+        {
+          "year_month": "2025-01",
+          "count": 13
+        },
+        {
+          "year_month": "2025-02",
+          "count": 8
+        },
+        {
+          "year_month": "2025-03",
+          "count": 16
+        },
+        {
+          "year_month": "2025-04",
+          "count": 14
+        },
+        {
+          "year_month": "2025-05",
+          "count": 13
+        },
+        {
+          "year_month": "2025-06",
+          "count": 9
+        },
+        {
+          "year_month": "2025-07",
+          "count": 11
+        },
+        {
+          "year_month": "2025-08",
+          "count": 15
+        },
+        {
+          "year_month": "2025-09",
+          "count": 5
+        },
+        {
+          "year_month": "2025-10",
+          "count": 8
+        },
+        {
+          "year_month": "2025-11",
+          "count": 11
+        },
+        {
+          "year_month": "2025-12",
+          "count": 9
+        },
+        {
+          "year_month": "2026-01",
+          "count": 10
+        },
+        {
+          "year_month": "2026-02",
+          "count": 5
+        },
+        {
+          "year_month": "2026-03",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "company_id": "13602",
+      "company_name": "Chatwork(kubell)",
+      "scored_at": "2026-03-20",
+      "volume_score": 3.5,
+      "recent_activity_score": 8.3,
+      "category_mix_score": 14.7,
+      "consistency_score": 6.9,
+      "growth_trajectory_score": 15.0,
+      "impact_score": 30.0,
+      "total_score": 78.4,
+      "grade": "A",
+      "total_releases": 312,
+      "active_months": 109,
+      "date_from": "2015-04-27",
+      "date_to": "2026-03-19",
+      "top_categories": {
+        "その他": 129,
+        "パートナーシップ": 74,
+        "新製品・新サービス": 41,
+        "導入事例": 31,
+        "受賞・認定": 23
+      },
+      "category": "SaaS",
+      "top_categories_list": [
+        {
+          "name": "その他",
+          "count": 129
+        },
+        {
+          "name": "パートナーシップ",
+          "count": 74
+        },
+        {
+          "name": "新製品・新サービス",
+          "count": 41
+        },
+        {
+          "name": "導入事例",
+          "count": 31
+        },
+        {
+          "name": "受賞・認定",
+          "count": 23
+        }
+      ],
+      "monthly_releases": [
+        {
+          "year_month": "2022-10",
+          "count": 6
+        },
+        {
+          "year_month": "2022-11",
+          "count": 9
+        },
+        {
+          "year_month": "2022-12",
+          "count": 2
+        },
+        {
+          "year_month": "2023-01",
+          "count": 2
+        },
+        {
+          "year_month": "2023-03",
+          "count": 3
+        },
+        {
+          "year_month": "2023-04",
+          "count": 4
+        },
+        {
+          "year_month": "2023-05",
+          "count": 1
+        },
+        {
+          "year_month": "2023-06",
+          "count": 5
+        },
+        {
+          "year_month": "2023-07",
+          "count": 3
+        },
+        {
+          "year_month": "2023-09",
+          "count": 2
+        },
+        {
+          "year_month": "2023-10",
+          "count": 4
+        },
+        {
+          "year_month": "2023-11",
+          "count": 3
+        },
+        {
+          "year_month": "2023-12",
+          "count": 2
+        },
+        {
+          "year_month": "2024-01",
+          "count": 1
+        },
+        {
+          "year_month": "2024-02",
+          "count": 3
+        },
+        {
+          "year_month": "2024-03",
+          "count": 5
+        },
+        {
+          "year_month": "2024-04",
+          "count": 3
+        },
+        {
+          "year_month": "2024-06",
+          "count": 1
+        },
+        {
+          "year_month": "2024-07",
+          "count": 2
+        },
+        {
+          "year_month": "2024-08",
+          "count": 3
+        },
+        {
+          "year_month": "2024-09",
+          "count": 1
+        },
+        {
+          "year_month": "2024-10",
+          "count": 5
+        },
+        {
+          "year_month": "2024-11",
+          "count": 2
+        },
+        {
+          "year_month": "2024-12",
+          "count": 3
+        },
+        {
+          "year_month": "2025-01",
+          "count": 3
+        },
+        {
+          "year_month": "2025-03",
+          "count": 2
+        },
+        {
+          "year_month": "2025-06",
+          "count": 2
+        },
+        {
+          "year_month": "2025-07",
+          "count": 1
+        },
+        {
+          "year_month": "2025-08",
+          "count": 1
+        },
+        {
+          "year_month": "2025-09",
+          "count": 1
+        },
+        {
+          "year_month": "2025-10",
+          "count": 1
+        },
+        {
+          "year_month": "2025-11",
+          "count": 2
+        },
+        {
+          "year_month": "2025-12",
+          "count": 3
+        },
+        {
+          "year_month": "2026-01",
+          "count": 4
+        },
+        {
+          "year_month": "2026-02",
+          "count": 5
+        },
+        {
+          "year_month": "2026-03",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "company_id": "15987",
+      "company_name": "SmartHR",
+      "scored_at": "2026-03-20",
+      "volume_score": 7.3,
+      "recent_activity_score": 9.2,
+      "category_mix_score": 13.7,
+      "consistency_score": 6.7,
+      "growth_trajectory_score": 11.0,
+      "impact_score": 30.0,
+      "total_score": 77.9,
+      "grade": "A",
+      "total_releases": 334,
+      "active_months": 104,
+      "date_from": "2015-11-18",
+      "date_to": "2026-03-18",
+      "top_categories": {
+        "その他": 163,
+        "パートナーシップ": 73,
+        "新製品・新サービス": 43,
+        "導入事例": 20,
+        "受賞・認定": 16
+      },
+      "category": "HRtech SaaS",
+      "top_categories_list": [
+        {
+          "name": "その他",
+          "count": 163
+        },
+        {
+          "name": "パートナーシップ",
+          "count": 73
+        },
+        {
+          "name": "新製品・新サービス",
+          "count": 43
+        },
+        {
+          "name": "導入事例",
+          "count": 20
+        },
+        {
+          "name": "受賞・認定",
+          "count": 16
+        }
+      ],
+      "monthly_releases": [
+        {
+          "year_month": "2022-12",
+          "count": 4
+        },
+        {
+          "year_month": "2023-01",
+          "count": 1
+        },
+        {
+          "year_month": "2023-02",
+          "count": 4
+        },
+        {
+          "year_month": "2023-03",
+          "count": 4
+        },
+        {
+          "year_month": "2023-04",
+          "count": 5
+        },
+        {
+          "year_month": "2023-05",
+          "count": 3
+        },
+        {
+          "year_month": "2023-06",
+          "count": 4
+        },
+        {
+          "year_month": "2023-07",
+          "count": 6
+        },
+        {
+          "year_month": "2023-08",
+          "count": 3
+        },
+        {
+          "year_month": "2023-09",
+          "count": 6
+        },
+        {
+          "year_month": "2023-10",
+          "count": 4
+        },
+        {
+          "year_month": "2023-11",
+          "count": 5
+        },
+        {
+          "year_month": "2023-12",
+          "count": 6
+        },
+        {
+          "year_month": "2024-01",
+          "count": 2
+        },
+        {
+          "year_month": "2024-03",
+          "count": 5
+        },
+        {
+          "year_month": "2024-04",
+          "count": 3
+        },
+        {
+          "year_month": "2024-05",
+          "count": 2
+        },
+        {
+          "year_month": "2024-06",
+          "count": 6
+        },
+        {
+          "year_month": "2024-09",
+          "count": 1
+        },
+        {
+          "year_month": "2024-10",
+          "count": 13
+        },
+        {
+          "year_month": "2024-11",
+          "count": 5
+        },
+        {
+          "year_month": "2024-12",
+          "count": 6
+        },
+        {
+          "year_month": "2025-01",
+          "count": 1
+        },
+        {
+          "year_month": "2025-02",
+          "count": 3
+        },
+        {
+          "year_month": "2025-03",
+          "count": 8
+        },
+        {
+          "year_month": "2025-04",
+          "count": 5
+        },
+        {
+          "year_month": "2025-05",
+          "count": 4
+        },
+        {
+          "year_month": "2025-06",
+          "count": 8
+        },
+        {
+          "year_month": "2025-08",
+          "count": 2
+        },
+        {
+          "year_month": "2025-09",
+          "count": 2
+        },
+        {
+          "year_month": "2025-10",
+          "count": 4
+        },
+        {
+          "year_month": "2025-11",
+          "count": 3
+        },
+        {
+          "year_month": "2025-12",
+          "count": 6
+        },
+        {
+          "year_month": "2026-01",
+          "count": 4
+        },
+        {
+          "year_month": "2026-02",
+          "count": 3
+        },
+        {
+          "year_month": "2026-03",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "company_id": "26386",
+      "company_name": "メルカリ",
+      "scored_at": "2026-03-20",
+      "volume_score": 13.3,
+      "recent_activity_score": 10.0,
+      "category_mix_score": 5.6,
+      "consistency_score": 6.6,
+      "growth_trajectory_score": 7.4,
+      "impact_score": 29.7,
+      "total_score": 72.6,
+      "grade": "A",
+      "total_releases": 452,
+      "active_months": 100,
+      "date_from": "2017-07-19",
+      "date_to": "2026-03-13",
+      "top_categories": {
+        "その他": 355,
+        "新製品・新サービス": 35,
+        "パートナーシップ": 27,
+        "導入事例": 14,
+        "受賞・認定": 13
+      },
+      "category": "EC/FinTech",
+      "top_categories_list": [
+        {
+          "name": "その他",
+          "count": 355
+        },
+        {
+          "name": "新製品・新サービス",
+          "count": 35
+        },
+        {
+          "name": "パートナーシップ",
+          "count": 27
+        },
+        {
+          "name": "導入事例",
+          "count": 14
+        },
+        {
+          "name": "受賞・認定",
+          "count": 13
+        }
+      ],
+      "monthly_releases": [
+        {
+          "year_month": "2023-04",
+          "count": 11
+        },
+        {
+          "year_month": "2023-05",
+          "count": 4
+        },
+        {
+          "year_month": "2023-06",
+          "count": 10
+        },
+        {
+          "year_month": "2023-07",
+          "count": 7
+        },
+        {
+          "year_month": "2023-08",
+          "count": 11
+        },
+        {
+          "year_month": "2023-09",
+          "count": 8
+        },
+        {
+          "year_month": "2023-10",
+          "count": 7
+        },
+        {
+          "year_month": "2023-11",
+          "count": 13
+        },
+        {
+          "year_month": "2023-12",
+          "count": 9
+        },
+        {
+          "year_month": "2024-01",
+          "count": 4
+        },
+        {
+          "year_month": "2024-02",
+          "count": 4
+        },
+        {
+          "year_month": "2024-03",
+          "count": 7
+        },
+        {
+          "year_month": "2024-04",
+          "count": 5
+        },
+        {
+          "year_month": "2024-05",
+          "count": 5
+        },
+        {
+          "year_month": "2024-06",
+          "count": 4
+        },
+        {
+          "year_month": "2024-07",
+          "count": 4
+        },
+        {
+          "year_month": "2024-08",
+          "count": 6
+        },
+        {
+          "year_month": "2024-09",
+          "count": 7
+        },
+        {
+          "year_month": "2024-10",
+          "count": 8
+        },
+        {
+          "year_month": "2024-11",
+          "count": 7
+        },
+        {
+          "year_month": "2024-12",
+          "count": 11
+        },
+        {
+          "year_month": "2025-01",
+          "count": 3
+        },
+        {
+          "year_month": "2025-02",
+          "count": 6
+        },
+        {
+          "year_month": "2025-03",
+          "count": 8
+        },
+        {
+          "year_month": "2025-04",
+          "count": 5
+        },
+        {
+          "year_month": "2025-05",
+          "count": 6
+        },
+        {
+          "year_month": "2025-06",
+          "count": 10
+        },
+        {
+          "year_month": "2025-07",
+          "count": 7
+        },
+        {
+          "year_month": "2025-08",
+          "count": 16
+        },
+        {
+          "year_month": "2025-09",
+          "count": 2
+        },
+        {
+          "year_month": "2025-10",
+          "count": 7
+        },
+        {
+          "year_month": "2025-11",
+          "count": 6
+        },
+        {
+          "year_month": "2025-12",
+          "count": 8
+        },
+        {
+          "year_month": "2026-01",
+          "count": 1
+        },
+        {
+          "year_month": "2026-02",
+          "count": 7
+        },
+        {
+          "year_month": "2026-03",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "company_id": "50142",
+      "company_name": "クラウドワークス",
+      "scored_at": "2026-03-20",
+      "volume_score": 5.3,
+      "recent_activity_score": 9.2,
+      "category_mix_score": 10.3,
+      "consistency_score": 7.3,
+      "growth_trajectory_score": 6.0,
+      "impact_score": 30.0,
+      "total_score": 68.1,
+      "grade": "B",
+      "total_releases": 371,
+      "active_months": 98,
+      "date_from": "1970-01-01",
+      "date_to": "2026-03-18",
+      "top_categories": {
+        "その他": 211,
+        "パートナーシップ": 47,
+        "新製品・新サービス": 44,
+        "採用": 30,
+        "導入事例": 16
+      },
+      "category": "SaaS",
+      "top_categories_list": [
+        {
+          "name": "その他",
+          "count": 211
+        },
+        {
+          "name": "パートナーシップ",
+          "count": 47
+        },
+        {
+          "name": "新製品・新サービス",
+          "count": 44
+        },
+        {
+          "name": "採用",
+          "count": 30
+        },
+        {
+          "name": "導入事例",
+          "count": 16
+        }
+      ],
+      "monthly_releases": [
+        {
+          "year_month": "2023-03",
+          "count": 4
+        },
+        {
+          "year_month": "2023-04",
+          "count": 2
+        },
+        {
+          "year_month": "2023-05",
+          "count": 7
+        },
+        {
+          "year_month": "2023-06",
+          "count": 4
+        },
+        {
+          "year_month": "2023-07",
+          "count": 8
+        },
+        {
+          "year_month": "2023-08",
+          "count": 10
+        },
+        {
+          "year_month": "2023-09",
+          "count": 4
+        },
+        {
+          "year_month": "2023-10",
+          "count": 7
+        },
+        {
+          "year_month": "2023-11",
+          "count": 10
+        },
+        {
+          "year_month": "2023-12",
+          "count": 7
+        },
+        {
+          "year_month": "2024-01",
+          "count": 2
+        },
+        {
+          "year_month": "2024-02",
+          "count": 7
+        },
+        {
+          "year_month": "2024-03",
+          "count": 2
+        },
+        {
+          "year_month": "2024-04",
+          "count": 4
+        },
+        {
+          "year_month": "2024-05",
+          "count": 2
+        },
+        {
+          "year_month": "2024-06",
+          "count": 3
+        },
+        {
+          "year_month": "2024-07",
+          "count": 2
+        },
+        {
+          "year_month": "2024-08",
+          "count": 8
+        },
+        {
+          "year_month": "2024-09",
+          "count": 5
+        },
+        {
+          "year_month": "2024-10",
+          "count": 5
+        },
+        {
+          "year_month": "2024-11",
+          "count": 9
+        },
+        {
+          "year_month": "2024-12",
+          "count": 3
+        },
+        {
+          "year_month": "2025-01",
+          "count": 2
+        },
+        {
+          "year_month": "2025-02",
+          "count": 7
+        },
+        {
+          "year_month": "2025-03",
+          "count": 5
+        },
+        {
+          "year_month": "2025-04",
+          "count": 4
+        },
+        {
+          "year_month": "2025-05",
+          "count": 4
+        },
+        {
+          "year_month": "2025-06",
+          "count": 5
+        },
+        {
+          "year_month": "2025-07",
+          "count": 3
+        },
+        {
+          "year_month": "2025-08",
+          "count": 3
+        },
+        {
+          "year_month": "2025-09",
+          "count": 1
+        },
+        {
+          "year_month": "2025-10",
+          "count": 3
+        },
+        {
+          "year_month": "2025-11",
+          "count": 1
+        },
+        {
+          "year_month": "2026-01",
+          "count": 3
+        },
+        {
+          "year_month": "2026-02",
+          "count": 2
+        },
+        {
+          "year_month": "2026-03",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "company_id": "30115",
+      "company_name": "freee",
+      "scored_at": "2026-03-20",
+      "volume_score": 0.0,
+      "recent_activity_score": 0.0,
+      "category_mix_score": 0.0,
+      "consistency_score": 0.0,
+      "growth_trajectory_score": 5.0,
+      "impact_score": 25.0,
+      "total_score": 30.0,
+      "grade": "D",
+      "total_releases": 3,
+      "active_months": 2,
+      "date_from": "2018-01-30",
+      "date_to": "2018-03-17",
+      "top_categories": {
+        "その他": 3
+      },
+      "category": "SaaS/FinTech",
+      "top_categories_list": [
+        {
+          "name": "その他",
+          "count": 3
+        }
+      ],
+      "monthly_releases": [
+        {
+          "year_month": "2018-01",
+          "count": 2
+        },
+        {
+          "year_month": "2018-03",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

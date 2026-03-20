@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PRFORCE - 広報力測定ダッシュボード</title>
+  <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #0e1117;
+      color: #fafafa;
+      min-height: 100vh;
+    }
+    nav {
+      background: #1a1d27;
+      border-bottom: 1px solid #2d3748;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      height: 56px;
+    }
+    nav .logo {
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      color: #ff4b4b;
+      margin-right: 16px;
+    }
+    nav a {
+      color: #a0aec0;
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 14px;
+      transition: all 0.2s;
+    }
+    nav a:hover, nav a.active {
+      color: #fafafa;
+      background: #2d3748;
+    }
+    nav a.active { color: #ff4b4b; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 32px 24px; }
+    h1 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
+    .subtitle { color: #718096; font-size: 14px; margin-bottom: 32px; }
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+    @media (max-width: 768px) {
+      .metrics { grid-template-columns: repeat(2, 1fr); }
+    }
+    .metric-card {
+      background: #1a1d27;
+      border: 1px solid #2d3748;
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .metric-card .label { font-size: 12px; color: #718096; margin-bottom: 6px; }
+    .metric-card .value { font-size: 28px; font-weight: 700; color: #fafafa; }
+    .metric-card .sub { font-size: 12px; color: #4a5568; margin-top: 2px; }
+    section { margin-bottom: 40px; }
+    section h2 { font-size: 18px; font-weight: 600; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 1px solid #2d3748; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    thead th {
+      text-align: left;
+      padding: 10px 12px;
+      background: #1a1d27;
+      color: #718096;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      border-bottom: 1px solid #2d3748;
+    }
+    tbody tr {
+      border-bottom: 1px solid #2d3748;
+      transition: background 0.15s;
+      cursor: pointer;
+    }
+    tbody tr:hover { background: #1a1d27; }
+    tbody td { padding: 12px 12px; vertical-align: middle; }
+    .rank { font-weight: 700; color: #718096; width: 40px; }
+    .company-name { font-weight: 600; }
+    .company-name a { color: #fafafa; text-decoration: none; }
+    .company-name a:hover { color: #ff4b4b; }
+    .grade-badge {
+      display: inline-block;
+      padding: 2px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .grade-S { background: #7b3aed22; color: #a78bfa; border: 1px solid #7b3aed44; }
+    .grade-A { background: #2563eb22; color: #60a5fa; border: 1px solid #2563eb44; }
+    .grade-B { background: #16a34a22; color: #4ade80; border: 1px solid #16a34a44; }
+    .grade-C { background: #d9770622; color: #fb923c; border: 1px solid #d9770644; }
+    .grade-D { background: #dc262622; color: #f87171; border: 1px solid #dc262644; }
+    .score-bar-wrap { display: flex; align-items: center; gap: 8px; }
+    .score-bar-bg {
+      flex: 1;
+      height: 6px;
+      background: #2d3748;
+      border-radius: 3px;
+      overflow: hidden;
+      min-width: 80px;
+    }
+    .score-bar-fill { height: 100%; border-radius: 3px; background: #ff4b4b; }
+    .score-num { font-weight: 600; width: 40px; text-align: right; font-size: 15px; }
+    .chart-card {
+      background: #1a1d27;
+      border: 1px solid #2d3748;
+      border-radius: 12px;
+      padding: 24px;
+    }
+    .updated { color: #4a5568; font-size: 12px; text-align: right; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <nav>
+    <span class="logo">PRFORCE</span>
+    <a href="index.html" class="active">ランキング</a>
+    <a href="company.html">企業詳細</a>
+    <a href="compare.html">比較分析</a>
+  </nav>
+  <div class="container">
+    <h1>📣 広報力測定ダッシュボード</h1>
+    <p class="subtitle">PR Timesのプレスリリースデータをもとに、スタートアップの広報力を定量スコアリング</p>
+
+    <div class="metrics" id="metrics"></div>
+
+    <section>
+      <h2>🏆 広報力ランキング</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>順位</th>
+            <th>企業名</th>
+            <th>グレード</th>
+            <th>総合スコア</th>
+            <th>量 (30)</th>
+            <th>質 (40)</th>
+            <th>影響力 (30)</th>
+            <th>リリース数</th>
+          </tr>
+        </thead>
+        <tbody id="ranking-body"></tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>📊 スコア構成比較（レーダーチャート）</h2>
+      <div class="chart-card">
+        <div id="radar-chart"></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>📈 総合スコア比較</h2>
+      <div class="chart-card">
+        <div id="bar-chart"></div>
+      </div>
+    </section>
+
+    <p class="updated" id="updated-at"></p>
+  </div>
+
+  <script>
+    const COLORS = ["#4F8BF9","#FF6B6B","#FFD93D","#6BCB77","#FF922B","#DA77F2","#74C0FC","#A9E34B","#FFA8A8"];
+
+    fetch("data.json")
+      .then(r => r.json())
+      .then(data => {
+        const companies = data.companies;
+        document.getElementById("updated-at").textContent = "データ更新日: " + data.updated_at;
+
+        // メトリクス
+        const totalReleases = companies.reduce((s, c) => s + c.total_releases, 0);
+        const avgScore = companies.reduce((s, c) => s + c.total_score, 0) / companies.length;
+        document.getElementById("metrics").innerHTML = `
+          <div class="metric-card"><div class="label">対象企業数</div><div class="value">${companies.length} <span style="font-size:16px;color:#718096">社</span></div></div>
+          <div class="metric-card"><div class="label">総リリース件数</div><div class="value">${totalReleases.toLocaleString()} <span style="font-size:16px;color:#718096">件</span></div></div>
+          <div class="metric-card"><div class="label">平均スコア</div><div class="value">${avgScore.toFixed(1)} <span style="font-size:16px;color:#718096">/ 100</span></div></div>
+          <div class="metric-card"><div class="label">データ更新日</div><div class="value" style="font-size:20px">${data.updated_at}</div></div>
+        `;
+
+        // ランキングテーブル
+        const tbody = document.getElementById("ranking-body");
+        companies.forEach((c, i) => {
+          const q = c.volume_score + c.recent_activity_score;
+          const qual = c.category_mix_score + c.consistency_score + c.growth_trajectory_score;
+          const pct = c.total_score;
+          tbody.innerHTML += `
+            <tr onclick="location.href='company.html?name=${encodeURIComponent(c.company_name)}'">
+              <td class="rank">${i + 1}</td>
+              <td class="company-name">${c.company_name}</td>
+              <td><span class="grade-badge grade-${c.grade}">${c.grade}</span></td>
+              <td>
+                <div class="score-bar-wrap">
+                  <div class="score-bar-bg"><div class="score-bar-fill" style="width:${pct}%"></div></div>
+                  <span class="score-num">${c.total_score}</span>
+                </div>
+              </td>
+              <td>${q.toFixed(1)}</td>
+              <td>${qual.toFixed(1)}</td>
+              <td>${c.impact_score}</td>
+              <td>${c.total_releases.toLocaleString()}</td>
+            </tr>`;
+        });
+
+        // レーダーチャート
+        const cats = ["配信量","継続活動","カテゴリミックス","継続安定性","成長トレンド","影響力"];
+        const radarTraces = companies.map((c, idx) => {
+          const vals = [
+            c.volume_score / 20 * 100,
+            c.recent_activity_score / 10 * 100,
+            c.category_mix_score / 15 * 100,
+            c.consistency_score / 10 * 100,
+            c.growth_trajectory_score / 15 * 100,
+            c.impact_score / 30 * 100,
+          ];
+          return {
+            type: "scatterpolar",
+            r: [...vals, vals[0]],
+            theta: [...cats, cats[0]],
+            fill: "toself",
+            name: c.company_name,
+            line: { color: COLORS[idx % COLORS.length] },
+            opacity: 0.6,
+          };
+        });
+        Plotly.newPlot("radar-chart", radarTraces, {
+          polar: { radialaxis: { visible: true, range: [0, 100], color: "#718096" }, bgcolor: "rgba(0,0,0,0)" },
+          showlegend: true,
+          height: 500,
+          paper_bgcolor: "rgba(0,0,0,0)",
+          plot_bgcolor: "rgba(0,0,0,0)",
+          font: { color: "#fafafa" },
+          legend: { bgcolor: "rgba(0,0,0,0)" },
+          margin: { t: 20, b: 20 },
+        }, { responsive: true });
+
+        // 棒グラフ
+        const names = companies.map(c => c.company_name);
+        Plotly.newPlot("bar-chart", [
+          { type: "bar", name: "量スコア", x: names, y: companies.map(c => c.volume_score + c.recent_activity_score), marker: { color: "#4F8BF9" } },
+          { type: "bar", name: "質スコア", x: names, y: companies.map(c => c.category_mix_score + c.consistency_score + c.growth_trajectory_score), marker: { color: "#6BCB77" } },
+          { type: "bar", name: "影響力スコア", x: names, y: companies.map(c => c.impact_score), marker: { color: "#FF6B6B" } },
+        ], {
+          barmode: "stack",
+          height: 400,
+          xaxis: { tickangle: -30, color: "#718096" },
+          yaxis: { title: "スコア (0-100)", color: "#718096", gridcolor: "#2d3748" },
+          paper_bgcolor: "rgba(0,0,0,0)",
+          plot_bgcolor: "rgba(0,0,0,0)",
+          font: { color: "#fafafa" },
+          legend: { bgcolor: "rgba(0,0,0,0)" },
+          margin: { t: 20, b: 80 },
+        }, { responsive: true });
+      });
+  </script>
+</body>
+</html>

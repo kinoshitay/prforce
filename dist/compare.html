@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PRFORCE - 比較分析</title>
+  <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #0e1117;
+      color: #fafafa;
+      min-height: 100vh;
+    }
+    nav {
+      background: #1a1d27;
+      border-bottom: 1px solid #2d3748;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      height: 56px;
+    }
+    nav .logo {
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      color: #ff4b4b;
+      margin-right: 16px;
+    }
+    nav a {
+      color: #a0aec0;
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 14px;
+      transition: all 0.2s;
+    }
+    nav a:hover, nav a.active {
+      color: #fafafa;
+      background: #2d3748;
+    }
+    nav a.active { color: #ff4b4b; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 32px 24px; }
+    h1 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
+    .subtitle { color: #718096; font-size: 14px; margin-bottom: 32px; }
+
+    .selector-panel {
+      background: #1a1d27;
+      border: 1px solid #2d3748;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 32px;
+    }
+    .selector-panel h3 {
+      font-size: 14px;
+      color: #718096;
+      margin-bottom: 12px;
+      font-weight: 600;
+    }
+    .checkbox-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .checkbox-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: #0e1117;
+      border: 1px solid #2d3748;
+      border-radius: 8px;
+      padding: 8px 14px;
+      cursor: pointer;
+      transition: all 0.2s;
+      user-select: none;
+    }
+    .checkbox-item:hover { border-color: #4a5568; }
+    .checkbox-item.selected {
+      border-color: #ff4b4b;
+      background: #ff4b4b11;
+    }
+    .checkbox-item input { display: none; }
+    .checkbox-dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      border: 2px solid #4a5568;
+      transition: all 0.2s;
+    }
+    .checkbox-item.selected .checkbox-dot {
+      border-color: #ff4b4b;
+      background: #ff4b4b;
+    }
+    .checkbox-label { font-size: 14px; }
+    .limit-msg {
+      font-size: 12px;
+      color: #718096;
+      margin-top: 10px;
+    }
+
+    .grade-badge {
+      display: inline-block;
+      padding: 2px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .grade-S { background: #7b3aed22; color: #a78bfa; border: 1px solid #7b3aed44; }
+    .grade-A { background: #2563eb22; color: #60a5fa; border: 1px solid #2563eb44; }
+    .grade-B { background: #16a34a22; color: #4ade80; border: 1px solid #16a34a44; }
+    .grade-C { background: #d9770622; color: #fb923c; border: 1px solid #d9770644; }
+    .grade-D { background: #dc262622; color: #f87171; border: 1px solid #dc262644; }
+
+    section { margin-bottom: 40px; }
+    section h2 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #2d3748;
+    }
+    .chart-card {
+      background: #1a1d27;
+      border: 1px solid #2d3748;
+      border-radius: 12px;
+      padding: 24px;
+    }
+    .charts-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 40px;
+    }
+    @media (max-width: 768px) {
+      .charts-grid { grid-template-columns: 1fr; }
+    }
+
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    thead th {
+      text-align: left;
+      padding: 10px 12px;
+      background: #1a1d27;
+      color: #718096;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      border-bottom: 1px solid #2d3748;
+    }
+    tbody tr { border-bottom: 1px solid #2d3748; }
+    tbody td { padding: 12px 12px; vertical-align: middle; }
+
+    .empty-state {
+      text-align: center;
+      padding: 60px 20px;
+      color: #4a5568;
+      font-size: 16px;
+    }
+    .updated { color: #4a5568; font-size: 12px; text-align: right; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <nav>
+    <span class="logo">PRFORCE</span>
+    <a href="index.html">ランキング</a>
+    <a href="company.html">企業詳細</a>
+    <a href="compare.html" class="active">比較分析</a>
+  </nav>
+  <div class="container">
+    <h1>比較分析</h1>
+    <p class="subtitle">最大5社を選択して広報力を横断比較</p>
+
+    <div class="selector-panel">
+      <h3>比較する企業を選択（最大5社）</h3>
+      <div class="checkbox-grid" id="checkbox-grid"></div>
+      <div class="limit-msg" id="limit-msg"></div>
+    </div>
+
+    <div id="compare-content">
+      <div class="empty-state">企業を選択してください</div>
+    </div>
+    <p class="updated" id="updated-at"></p>
+  </div>
+
+  <script>
+    const COLORS = ["#4F8BF9","#FF6B6B","#FFD93D","#6BCB77","#FF922B","#DA77F2","#74C0FC","#A9E34B","#FFA8A8"];
+    const MAX_SELECT = 5;
+
+    let allCompanies = [];
+    let selected = new Set();
+
+    fetch("data.json")
+      .then(r => r.json())
+      .then(data => {
+        allCompanies = data.companies;
+        document.getElementById("updated-at").textContent = "データ更新日: " + data.updated_at;
+        buildCheckboxes();
+        // デフォルトで上位3社を選択
+        allCompanies.slice(0, 3).forEach(c => selected.add(c.company_name));
+        syncUI();
+      });
+
+    function buildCheckboxes() {
+      const grid = document.getElementById("checkbox-grid");
+      allCompanies.forEach((c, i) => {
+        const item = document.createElement("label");
+        item.className = "checkbox-item";
+        item.dataset.name = c.company_name;
+        item.innerHTML = `
+          <input type="checkbox" value="${c.company_name}" />
+          <span class="checkbox-dot" style="border-color:${COLORS[i % COLORS.length]}"></span>
+          <span class="checkbox-label">${c.company_name}</span>
+          <span class="grade-badge grade-${c.grade}" style="margin-left:4px;font-size:11px">${c.grade}</span>
+        `;
+        item.querySelector("input").addEventListener("change", e => {
+          const name = e.target.value;
+          if (e.target.checked) {
+            if (selected.size >= MAX_SELECT) { e.target.checked = false; return; }
+            selected.add(name);
+          } else {
+            selected.delete(name);
+          }
+          syncUI();
+        });
+        grid.appendChild(item);
+      });
+    }
+
+    function syncUI() {
+      // チェックボックスの状態同期
+      document.querySelectorAll(".checkbox-item").forEach(item => {
+        const cb = item.querySelector("input");
+        const name = cb.value;
+        cb.checked = selected.has(name);
+        item.classList.toggle("selected", selected.has(name));
+      });
+      const msg = document.getElementById("limit-msg");
+      msg.textContent = selected.size + " / " + MAX_SELECT + " 社選択中" + (selected.size >= MAX_SELECT ? "（上限に達しています）" : "");
+
+      if (selected.size === 0) {
+        document.getElementById("compare-content").innerHTML = '<div class="empty-state">企業を選択してください</div>';
+        return;
+      }
+      renderComparison();
+    }
+
+    function renderComparison() {
+      const sel = allCompanies.filter(c => selected.has(c.company_name));
+      const container = document.getElementById("compare-content");
+
+      container.innerHTML = `
+        <div class="charts-grid">
+          <section>
+            <h2>レーダーチャート比較</h2>
+            <div class="chart-card"><div id="radar-chart"></div></div>
+          </section>
+          <section>
+            <h2>スコア構成比較</h2>
+            <div class="chart-card"><div id="bar-chart"></div></div>
+          </section>
+        </div>
+        <section>
+          <h2>比較テーブル</h2>
+          <div class="chart-card" style="overflow-x:auto">
+            <table>
+              <thead><tr id="table-head"></tr></thead>
+              <tbody id="table-body"></tbody>
+            </table>
+          </div>
+        </section>
+      `;
+
+      // レーダーチャート
+      const cats = ["配信量","継続活動","カテゴリミックス","継続安定性","成長トレンド","影響力"];
+      const radarTraces = sel.map((c, idx) => {
+        const vals = [
+          c.volume_score / 20 * 100,
+          c.recent_activity_score / 10 * 100,
+          c.category_mix_score / 15 * 100,
+          c.consistency_score / 10 * 100,
+          c.growth_trajectory_score / 15 * 100,
+          c.impact_score / 30 * 100,
+        ];
+        return {
+          type: "scatterpolar",
+          r: [...vals, vals[0]],
+          theta: [...cats, cats[0]],
+          fill: "toself",
+          name: c.company_name,
+          line: { color: COLORS[idx % COLORS.length] },
+          opacity: 0.6,
+        };
+      });
+      Plotly.newPlot("radar-chart", radarTraces, {
+        polar: { radialaxis: { visible: true, range: [0, 100], color: "#718096" }, bgcolor: "rgba(0,0,0,0)" },
+        showlegend: true,
+        height: 420,
+        paper_bgcolor: "rgba(0,0,0,0)",
+        plot_bgcolor: "rgba(0,0,0,0)",
+        font: { color: "#fafafa" },
+        legend: { bgcolor: "rgba(0,0,0,0)" },
+        margin: { t: 20, b: 20 },
+      }, { responsive: true });
+
+      // 積上げ棒グラフ
+      const names = sel.map(c => c.company_name);
+      Plotly.newPlot("bar-chart", [
+        { type: "bar", name: "量スコア (30)", x: names, y: sel.map(c => c.volume_score + c.recent_activity_score), marker: { color: "#4F8BF9" } },
+        { type: "bar", name: "質スコア (40)", x: names, y: sel.map(c => c.category_mix_score + c.consistency_score + c.growth_trajectory_score), marker: { color: "#6BCB77" } },
+        { type: "bar", name: "影響力 (30)", x: names, y: sel.map(c => c.impact_score), marker: { color: "#FF6B6B" } },
+      ], {
+        barmode: "stack",
+        height: 420,
+        xaxis: { tickangle: -20, color: "#718096" },
+        yaxis: { title: "スコア", color: "#718096", gridcolor: "#2d3748", range: [0, 105] },
+        paper_bgcolor: "rgba(0,0,0,0)",
+        plot_bgcolor: "rgba(0,0,0,0)",
+        font: { color: "#fafafa" },
+        legend: { bgcolor: "rgba(0,0,0,0)" },
+        margin: { t: 20, b: 80 },
+      }, { responsive: true });
+
+      // 比較テーブル
+      const thead = document.getElementById("table-head");
+      thead.innerHTML = '<th>指標</th>' + sel.map(c => `<th>${c.company_name}</th>`).join("");
+
+      const rows = [
+        { label: "グレード", fn: c => `<span class="grade-badge grade-${c.grade}">${c.grade}</span>` },
+        { label: "総合スコア", fn: c => `<strong>${c.total_score}</strong>` },
+        { label: "量スコア (/ 30)", fn: c => (c.volume_score + c.recent_activity_score).toFixed(1) },
+        { label: "  配信量 (/ 20)", fn: c => c.volume_score.toFixed(1) },
+        { label: "  継続活動 (/ 10)", fn: c => c.recent_activity_score.toFixed(1) },
+        { label: "質スコア (/ 40)", fn: c => (c.category_mix_score + c.consistency_score + c.growth_trajectory_score).toFixed(1) },
+        { label: "  カテゴリミックス (/ 15)", fn: c => c.category_mix_score.toFixed(1) },
+        { label: "  継続安定性 (/ 10)", fn: c => c.consistency_score.toFixed(1) },
+        { label: "  成長トレンド (/ 15)", fn: c => c.growth_trajectory_score.toFixed(1) },
+        { label: "影響力スコア (/ 30)", fn: c => c.impact_score.toFixed(1) },
+        { label: "リリース総数", fn: c => c.total_releases.toLocaleString() + "件" },
+        { label: "活動月数", fn: c => c.active_months + "ヶ月" },
+      ];
+
+      const tbody = document.getElementById("table-body");
+      rows.forEach(row => {
+        const isIndent = row.label.startsWith("  ");
+        const label = isIndent ? '<span style="padding-left:16px;color:#a0aec0">' + row.label.trim() + '</span>' : row.label;
+        tbody.innerHTML += `<tr><td style="white-space:nowrap">${label}</td>` +
+          sel.map(c => `<td>${row.fn(c)}</td>`).join("") + "</tr>";
+      });
+    }
+  </script>
+</body>
+</html>
