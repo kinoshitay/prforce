@@ -1,0 +1,11 @@
+[
+  {"name": "LayerX",           "company_id": "36528", "category": "SaaS/FinTech"},
+  {"name": "freee",            "company_id": "30115", "category": "SaaS/FinTech"},
+  {"name": "マネーフォワード",   "company_id": "8962",  "category": "SaaS/FinTech"},
+  {"name": "SmartHR",          "company_id": "15987", "category": "HRtech SaaS"},
+  {"name": "Sansan",           "company_id": "49627", "category": "SaaS"},
+  {"name": "Chatwork(kubell)", "company_id": "13602", "category": "SaaS"},
+  {"name": "クラウドワークス",   "company_id": "50142", "category": "SaaS"},
+  {"name": "メルカリ",          "company_id": "26386", "category": "EC/FinTech"},
+  {"name": "HENNGE",           "company_id": "7098",  "category": "SaaS"}
+]

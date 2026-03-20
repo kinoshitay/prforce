@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:prtimes.jp)",
+      "Bash(pip3 show requests beautifulsoup4 playwright)",
+      "Bash(pip3 show playwright)",
+      "Bash(pip3 show lxml)",
+      "Bash(pip3 show pandas)",
+      "Bash(python3 scraper.py)",
+      "Bash(python3 -c \":*)",
+      "Bash(curl -s \"https://prtimes.jp/rss/index.php?company_id=36528\")",
+      "Bash(pip3 install playwright)",
+      "Bash(python3 -m playwright install chromium)",
+      "Bash(python3 scorer.py)",
+      "Bash(python3 batch_score.py)",
+      "Bash(pip3 install streamlit plotly)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}

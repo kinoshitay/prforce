@@ -1,0 +1,24 @@
+{
+  "company_id": "36528",
+  "company_name": "LayerX",
+  "scored_at": "2026-03-20",
+  "volume_score": 20.0,
+  "recent_activity_score": 10.0,
+  "category_mix_score": 10.6,
+  "consistency_score": 5.5,
+  "growth_trajectory_score": 6.2,
+  "impact_score": 30.0,
+  "total_score": 82.4,
+  "grade": "A",
+  "total_releases": 532,
+  "active_months": 70,
+  "date_from": "2018-11-13",
+  "date_to": "2026-03-18",
+  "top_categories": {
+    "その他": 275,
+    "導入事例": 85,
+    "新製品・新サービス": 80,
+    "パートナーシップ": 47,
+    "資金調達": 18
+  }
+}
