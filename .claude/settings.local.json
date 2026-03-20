@@ -14,7 +14,13 @@
       "Bash(python3 scorer.py)",
       "Bash(python3 batch_score.py)",
       "Bash(pip3 install streamlit plotly)",
-      "mcp__Claude_Preview__preview_start"
+      "mcp__Claude_Preview__preview_start",
+      "Bash(.gitignore:*)",
+      "Bash(git init)",
+      "Bash(git add .)",
+      "Bash(git remote set-url origin https://github.com/kinoshitay/pr-sokutei-app.git)",
+      "Bash(git commit -m \"fix: Python 3.9対応 Optional型修正・デプロイ設定追加\")",
+      "Bash(git push -u origin main)"
     ]
   }
 }

@@ -2,3 +2,5 @@ debug_page*.html
 __pycache__/
 *.pyc
 .DS_Store
+*.egg-info/
+.env
