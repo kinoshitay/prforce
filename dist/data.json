@@ -1,10 +1,13 @@
 {
   "updated_at": "2026/03/20",
+  "total_companies": 9,
+  "total_releases": 4257,
+  "avg_score": 74.6,
   "companies": [
     {
       "company_id": "8962",
       "company_name": "マネーフォワード",
-      "scored_at": "2026-03-20",
+      "scored_at": "2026-03-23",
       "volume_score": 20.0,
       "recent_activity_score": 10.0,
       "category_mix_score": 13.5,
@@ -48,6 +51,214 @@
         }
       ],
       "monthly_releases": [
+        {
+          "year_month": "2018-12",
+          "count": 11
+        },
+        {
+          "year_month": "2019-01",
+          "count": 6
+        },
+        {
+          "year_month": "2019-02",
+          "count": 8
+        },
+        {
+          "year_month": "2019-03",
+          "count": 14
+        },
+        {
+          "year_month": "2019-04",
+          "count": 7
+        },
+        {
+          "year_month": "2019-05",
+          "count": 9
+        },
+        {
+          "year_month": "2019-06",
+          "count": 6
+        },
+        {
+          "year_month": "2019-07",
+          "count": 6
+        },
+        {
+          "year_month": "2019-08",
+          "count": 9
+        },
+        {
+          "year_month": "2019-09",
+          "count": 6
+        },
+        {
+          "year_month": "2019-10",
+          "count": 4
+        },
+        {
+          "year_month": "2019-11",
+          "count": 6
+        },
+        {
+          "year_month": "2019-12",
+          "count": 10
+        },
+        {
+          "year_month": "2020-01",
+          "count": 5
+        },
+        {
+          "year_month": "2020-02",
+          "count": 7
+        },
+        {
+          "year_month": "2020-03",
+          "count": 9
+        },
+        {
+          "year_month": "2020-04",
+          "count": 10
+        },
+        {
+          "year_month": "2020-05",
+          "count": 19
+        },
+        {
+          "year_month": "2020-06",
+          "count": 6
+        },
+        {
+          "year_month": "2020-07",
+          "count": 16
+        },
+        {
+          "year_month": "2020-08",
+          "count": 10
+        },
+        {
+          "year_month": "2020-09",
+          "count": 8
+        },
+        {
+          "year_month": "2020-10",
+          "count": 14
+        },
+        {
+          "year_month": "2020-11",
+          "count": 14
+        },
+        {
+          "year_month": "2020-12",
+          "count": 10
+        },
+        {
+          "year_month": "2021-01",
+          "count": 13
+        },
+        {
+          "year_month": "2021-02",
+          "count": 8
+        },
+        {
+          "year_month": "2021-03",
+          "count": 15
+        },
+        {
+          "year_month": "2021-04",
+          "count": 16
+        },
+        {
+          "year_month": "2021-05",
+          "count": 7
+        },
+        {
+          "year_month": "2021-06",
+          "count": 11
+        },
+        {
+          "year_month": "2021-07",
+          "count": 12
+        },
+        {
+          "year_month": "2021-08",
+          "count": 9
+        },
+        {
+          "year_month": "2021-09",
+          "count": 11
+        },
+        {
+          "year_month": "2021-10",
+          "count": 20
+        },
+        {
+          "year_month": "2021-11",
+          "count": 18
+        },
+        {
+          "year_month": "2021-12",
+          "count": 21
+        },
+        {
+          "year_month": "2022-01",
+          "count": 10
+        },
+        {
+          "year_month": "2022-02",
+          "count": 13
+        },
+        {
+          "year_month": "2022-03",
+          "count": 25
+        },
+        {
+          "year_month": "2022-04",
+          "count": 22
+        },
+        {
+          "year_month": "2022-05",
+          "count": 16
+        },
+        {
+          "year_month": "2022-06",
+          "count": 25
+        },
+        {
+          "year_month": "2022-07",
+          "count": 27
+        },
+        {
+          "year_month": "2022-08",
+          "count": 21
+        },
+        {
+          "year_month": "2022-09",
+          "count": 31
+        },
+        {
+          "year_month": "2022-10",
+          "count": 28
+        },
+        {
+          "year_month": "2022-11",
+          "count": 22
+        },
+        {
+          "year_month": "2022-12",
+          "count": 28
+        },
+        {
+          "year_month": "2023-01",
+          "count": 14
+        },
+        {
+          "year_month": "2023-02",
+          "count": 16
+        },
+        {
+          "year_month": "2023-03",
+          "count": 20
+        },
         {
           "year_month": "2023-04",
           "count": 16
@@ -192,12 +403,389 @@
           "year_month": "2026-03",
           "count": 7
         }
+      ],
+      "category_distribution": [
+        {
+          "category_name": "その他",
+          "count": 650
+        },
+        {
+          "category_name": "新製品・新サービス",
+          "count": 191
+        },
+        {
+          "category_name": "パートナーシップ",
+          "count": 186
+        },
+        {
+          "category_name": "受賞・認定",
+          "count": 75
+        },
+        {
+          "category_name": "資金調達",
+          "count": 66
+        },
+        {
+          "category_name": "導入事例",
+          "count": 64
+        },
+        {
+          "category_name": "M&A",
+          "count": 3
+        },
+        {
+          "category_name": "採用",
+          "count": 3
+        },
+        {
+          "category_name": "上場",
+          "count": 2
+        }
+      ],
+      "category_monthly": [
+        {
+          "year_month": "2025-03",
+          "category_name": "その他",
+          "count": 3
+        },
+        {
+          "year_month": "2025-03",
+          "category_name": "パートナーシップ",
+          "count": 1
+        },
+        {
+          "year_month": "2025-03",
+          "category_name": "資金調達",
+          "count": 1
+        },
+        {
+          "year_month": "2025-04",
+          "category_name": "その他",
+          "count": 13
+        },
+        {
+          "year_month": "2025-04",
+          "category_name": "パートナーシップ",
+          "count": 2
+        },
+        {
+          "year_month": "2025-04",
+          "category_name": "受賞・認定",
+          "count": 1
+        },
+        {
+          "year_month": "2025-04",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        },
+        {
+          "year_month": "2025-05",
+          "category_name": "その他",
+          "count": 3
+        },
+        {
+          "year_month": "2025-05",
+          "category_name": "パートナーシップ",
+          "count": 1
+        },
+        {
+          "year_month": "2025-05",
+          "category_name": "新製品・新サービス",
+          "count": 3
+        },
+        {
+          "year_month": "2025-06",
+          "category_name": "資金調達",
+          "count": 2
+        },
+        {
+          "year_month": "2025-06",
+          "category_name": "新製品・新サービス",
+          "count": 2
+        },
+        {
+          "year_month": "2025-06",
+          "category_name": "導入事例",
+          "count": 1
+        },
+        {
+          "year_month": "2025-06",
+          "category_name": "受賞・認定",
+          "count": 1
+        },
+        {
+          "year_month": "2025-06",
+          "category_name": "パートナーシップ",
+          "count": 1
+        },
+        {
+          "year_month": "2025-06",
+          "category_name": "その他",
+          "count": 7
+        },
+        {
+          "year_month": "2025-07",
+          "category_name": "その他",
+          "count": 2
+        },
+        {
+          "year_month": "2025-07",
+          "category_name": "パートナーシップ",
+          "count": 1
+        },
+        {
+          "year_month": "2025-07",
+          "category_name": "受賞・認定",
+          "count": 1
+        },
+        {
+          "year_month": "2025-07",
+          "category_name": "新製品・新サービス",
+          "count": 2
+        },
+        {
+          "year_month": "2025-08",
+          "category_name": "その他",
+          "count": 11
+        },
+        {
+          "year_month": "2025-08",
+          "category_name": "パートナーシップ",
+          "count": 3
+        },
+        {
+          "year_month": "2025-08",
+          "category_name": "新製品・新サービス",
+          "count": 5
+        },
+        {
+          "year_month": "2025-08",
+          "category_name": "資金調達",
+          "count": 1
+        },
+        {
+          "year_month": "2025-09",
+          "category_name": "導入事例",
+          "count": 1
+        },
+        {
+          "year_month": "2025-09",
+          "category_name": "新製品・新サービス",
+          "count": 2
+        },
+        {
+          "year_month": "2025-09",
+          "category_name": "その他",
+          "count": 7
+        },
+        {
+          "year_month": "2025-09",
+          "category_name": "パートナーシップ",
+          "count": 6
+        },
+        {
+          "year_month": "2025-10",
+          "category_name": "その他",
+          "count": 26
+        },
+        {
+          "year_month": "2025-10",
+          "category_name": "パートナーシップ",
+          "count": 2
+        },
+        {
+          "year_month": "2025-10",
+          "category_name": "受賞・認定",
+          "count": 2
+        },
+        {
+          "year_month": "2025-10",
+          "category_name": "導入事例",
+          "count": 1
+        },
+        {
+          "year_month": "2025-10",
+          "category_name": "新製品・新サービス",
+          "count": 5
+        },
+        {
+          "year_month": "2025-11",
+          "category_name": "その他",
+          "count": 8
+        },
+        {
+          "year_month": "2025-11",
+          "category_name": "パートナーシップ",
+          "count": 4
+        },
+        {
+          "year_month": "2025-11",
+          "category_name": "受賞・認定",
+          "count": 1
+        },
+        {
+          "year_month": "2025-11",
+          "category_name": "新製品・新サービス",
+          "count": 6
+        },
+        {
+          "year_month": "2025-12",
+          "category_name": "資金調達",
+          "count": 2
+        },
+        {
+          "year_month": "2025-12",
+          "category_name": "導入事例",
+          "count": 5
+        },
+        {
+          "year_month": "2025-12",
+          "category_name": "新製品・新サービス",
+          "count": 6
+        },
+        {
+          "year_month": "2025-12",
+          "category_name": "その他",
+          "count": 8
+        },
+        {
+          "year_month": "2025-12",
+          "category_name": "パートナーシップ",
+          "count": 3
+        },
+        {
+          "year_month": "2026-01",
+          "category_name": "その他",
+          "count": 4
+        },
+        {
+          "year_month": "2026-01",
+          "category_name": "パートナーシップ",
+          "count": 1
+        },
+        {
+          "year_month": "2026-01",
+          "category_name": "受賞・認定",
+          "count": 1
+        },
+        {
+          "year_month": "2026-01",
+          "category_name": "導入事例",
+          "count": 1
+        },
+        {
+          "year_month": "2026-01",
+          "category_name": "新製品・新サービス",
+          "count": 2
+        },
+        {
+          "year_month": "2026-01",
+          "category_name": "資金調達",
+          "count": 2
+        },
+        {
+          "year_month": "2026-02",
+          "category_name": "その他",
+          "count": 6
+        },
+        {
+          "year_month": "2026-02",
+          "category_name": "パートナーシップ",
+          "count": 4
+        },
+        {
+          "year_month": "2026-02",
+          "category_name": "導入事例",
+          "count": 1
+        },
+        {
+          "year_month": "2026-03",
+          "category_name": "導入事例",
+          "count": 1
+        },
+        {
+          "year_month": "2026-03",
+          "category_name": "その他",
+          "count": 2
+        },
+        {
+          "year_month": "2026-03",
+          "category_name": "パートナーシップ",
+          "count": 2
+        },
+        {
+          "year_month": "2026-03",
+          "category_name": "新製品・新サービス",
+          "count": 2
+        }
+      ],
+      "recent_releases": [
+        {
+          "date": "2026-03-19",
+          "title": "『マネーフォワード ME』プレミアム会員向け「Prime Coupon」、「心地よさを、愉しむ・贈る。」をテーマに新たな提携ブランドを追加",
+          "category": "パートナーシップ",
+          "url": "https://prtimes.jp/main/html/rd/p/000001599.000008962.html"
+        },
+        {
+          "date": "2026-03-19",
+          "title": "『マネーフォワード クラウド債権管理 for Salesforce』においてAgentforceを支援する『AI Agent for Agentforce 未入金回収サポート』の提供開始を発表",
+          "category": "新製品・新サービス",
+          "url": "https://prtimes.jp/main/html/rd/p/000001594.000008962.html"
+        },
+        {
+          "date": "2026-03-18",
+          "title": "株式会社令和トラベルが『マネーフォワード Admina』を導入",
+          "category": "導入事例",
+          "url": "https://prtimes.jp/main/html/rd/p/000001596.000008962.html"
+        },
+        {
+          "date": "2026-03-17",
+          "title": "『マネーフォワード クラウド会計』、AIエージェント「消費税区分チェックエージェント」を一部の士業事務所向けに提供開始",
+          "category": "新製品・新サービス",
+          "url": "https://prtimes.jp/main/html/rd/p/000001597.000008962.html"
+        },
+        {
+          "date": "2026-03-17",
+          "title": "マネーフォワードエックス、南都銀行と経理・決済・金融サービスを統合した「法人向けデジタルサービス」の共同開発に合意",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000001598.000008962.html"
+        },
+        {
+          "date": "2026-03-13",
+          "title": "『マネーフォワード ME』プレミアム会員向け「Prime Coupon」、「暮らしを、もっと上質に」をテーマに新たに3つの提携ブランドを追加",
+          "category": "パートナーシップ",
+          "url": "https://prtimes.jp/main/html/rd/p/000001593.000008962.html"
+        },
+        {
+          "date": "2026-03-02",
+          "title": "『マネーフォワード ME』の資産管理機能の一部が『三井住友銀行アプリ』および『三井住友カード Vpassアプリ』で利用可能に",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000001591.000008962.html"
+        },
+        {
+          "date": "2026-02-25",
+          "title": "マネーフォワードｉ代表の今井義人が「ITトレンドEXPO2026 Spring」に登壇",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000001590.000008962.html"
+        },
+        {
+          "date": "2026-02-25",
+          "title": "『マネーフォワード クラウド債務支払』、ネクスウェイの『トッツゴー』とAPI連携を開始",
+          "category": "パートナーシップ",
+          "url": "https://prtimes.jp/main/html/rd/p/000001589.000008962.html"
+        },
+        {
+          "date": "2026-02-17",
+          "title": "『マネーフォワード ビジネスカード』、JTB-CWTの『ビズバンスJTB経費データ連携』との連携を開始",
+          "category": "パートナーシップ",
+          "url": "https://prtimes.jp/main/html/rd/p/000001584.000008962.html"
+        }
       ]
     },
     {
       "company_id": "7098",
       "company_name": "HENNGE",
-      "scored_at": "2026-03-20",
+      "scored_at": "2026-03-23",
       "volume_score": 10.8,
       "recent_activity_score": 10.0,
       "category_mix_score": 15.0,
@@ -241,6 +829,170 @@
         }
       ],
       "monthly_releases": [
+        {
+          "year_month": "2013-04",
+          "count": 2
+        },
+        {
+          "year_month": "2013-05",
+          "count": 1
+        },
+        {
+          "year_month": "2014-02",
+          "count": 1
+        },
+        {
+          "year_month": "2015-03",
+          "count": 1
+        },
+        {
+          "year_month": "2019-11",
+          "count": 1
+        },
+        {
+          "year_month": "2019-12",
+          "count": 2
+        },
+        {
+          "year_month": "2020-01",
+          "count": 4
+        },
+        {
+          "year_month": "2020-02",
+          "count": 4
+        },
+        {
+          "year_month": "2020-03",
+          "count": 1
+        },
+        {
+          "year_month": "2020-04",
+          "count": 3
+        },
+        {
+          "year_month": "2020-05",
+          "count": 4
+        },
+        {
+          "year_month": "2020-06",
+          "count": 5
+        },
+        {
+          "year_month": "2020-07",
+          "count": 3
+        },
+        {
+          "year_month": "2020-08",
+          "count": 1
+        },
+        {
+          "year_month": "2020-09",
+          "count": 2
+        },
+        {
+          "year_month": "2020-10",
+          "count": 3
+        },
+        {
+          "year_month": "2020-11",
+          "count": 7
+        },
+        {
+          "year_month": "2020-12",
+          "count": 3
+        },
+        {
+          "year_month": "2021-01",
+          "count": 4
+        },
+        {
+          "year_month": "2021-02",
+          "count": 4
+        },
+        {
+          "year_month": "2021-03",
+          "count": 2
+        },
+        {
+          "year_month": "2021-04",
+          "count": 6
+        },
+        {
+          "year_month": "2021-05",
+          "count": 5
+        },
+        {
+          "year_month": "2021-06",
+          "count": 6
+        },
+        {
+          "year_month": "2021-07",
+          "count": 2
+        },
+        {
+          "year_month": "2021-08",
+          "count": 2
+        },
+        {
+          "year_month": "2021-09",
+          "count": 4
+        },
+        {
+          "year_month": "2021-10",
+          "count": 10
+        },
+        {
+          "year_month": "2021-11",
+          "count": 2
+        },
+        {
+          "year_month": "2021-12",
+          "count": 7
+        },
+        {
+          "year_month": "2022-01",
+          "count": 4
+        },
+        {
+          "year_month": "2022-02",
+          "count": 2
+        },
+        {
+          "year_month": "2022-03",
+          "count": 4
+        },
+        {
+          "year_month": "2022-04",
+          "count": 2
+        },
+        {
+          "year_month": "2022-05",
+          "count": 2
+        },
+        {
+          "year_month": "2022-06",
+          "count": 1
+        },
+        {
+          "year_month": "2022-07",
+          "count": 3
+        },
+        {
+          "year_month": "2022-08",
+          "count": 1
+        },
+        {
+          "year_month": "2022-09",
+          "count": 2
+        },
+        {
+          "year_month": "2022-10",
+          "count": 1
+        },
+        {
+          "year_month": "2022-11",
+          "count": 3
+        },
         {
           "year_month": "2023-01",
           "count": 1
@@ -385,12 +1137,251 @@
           "year_month": "2026-03",
           "count": 5
         }
+      ],
+      "category_distribution": [
+        {
+          "category_name": "パートナーシップ",
+          "count": 148
+        },
+        {
+          "category_name": "その他",
+          "count": 88
+        },
+        {
+          "category_name": "新製品・新サービス",
+          "count": 10
+        },
+        {
+          "category_name": "導入事例",
+          "count": 9
+        },
+        {
+          "category_name": "資金調達",
+          "count": 7
+        },
+        {
+          "category_name": "受賞・認定",
+          "count": 7
+        },
+        {
+          "category_name": "採用",
+          "count": 5
+        }
+      ],
+      "category_monthly": [
+        {
+          "year_month": "2025-03",
+          "category_name": "その他",
+          "count": 2
+        },
+        {
+          "year_month": "2025-04",
+          "category_name": "その他",
+          "count": 1
+        },
+        {
+          "year_month": "2025-04",
+          "category_name": "パートナーシップ",
+          "count": 1
+        },
+        {
+          "year_month": "2025-04",
+          "category_name": "受賞・認定",
+          "count": 1
+        },
+        {
+          "year_month": "2025-04",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        },
+        {
+          "year_month": "2025-04",
+          "category_name": "資金調達",
+          "count": 1
+        },
+        {
+          "year_month": "2025-05",
+          "category_name": "パートナーシップ",
+          "count": 2
+        },
+        {
+          "year_month": "2025-06",
+          "category_name": "その他",
+          "count": 1
+        },
+        {
+          "year_month": "2025-06",
+          "category_name": "パートナーシップ",
+          "count": 3
+        },
+        {
+          "year_month": "2025-07",
+          "category_name": "パートナーシップ",
+          "count": 6
+        },
+        {
+          "year_month": "2025-08",
+          "category_name": "その他",
+          "count": 3
+        },
+        {
+          "year_month": "2025-08",
+          "category_name": "パートナーシップ",
+          "count": 2
+        },
+        {
+          "year_month": "2025-09",
+          "category_name": "その他",
+          "count": 1
+        },
+        {
+          "year_month": "2025-09",
+          "category_name": "パートナーシップ",
+          "count": 5
+        },
+        {
+          "year_month": "2025-10",
+          "category_name": "採用",
+          "count": 1
+        },
+        {
+          "year_month": "2025-10",
+          "category_name": "その他",
+          "count": 2
+        },
+        {
+          "year_month": "2025-10",
+          "category_name": "パートナーシップ",
+          "count": 5
+        },
+        {
+          "year_month": "2025-11",
+          "category_name": "パートナーシップ",
+          "count": 4
+        },
+        {
+          "year_month": "2025-11",
+          "category_name": "受賞・認定",
+          "count": 1
+        },
+        {
+          "year_month": "2025-12",
+          "category_name": "その他",
+          "count": 3
+        },
+        {
+          "year_month": "2025-12",
+          "category_name": "パートナーシップ",
+          "count": 1
+        },
+        {
+          "year_month": "2025-12",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        },
+        {
+          "year_month": "2025-12",
+          "category_name": "資金調達",
+          "count": 1
+        },
+        {
+          "year_month": "2026-01",
+          "category_name": "その他",
+          "count": 2
+        },
+        {
+          "year_month": "2026-01",
+          "category_name": "パートナーシップ",
+          "count": 4
+        },
+        {
+          "year_month": "2026-02",
+          "category_name": "その他",
+          "count": 3
+        },
+        {
+          "year_month": "2026-02",
+          "category_name": "パートナーシップ",
+          "count": 4
+        },
+        {
+          "year_month": "2026-03",
+          "category_name": "その他",
+          "count": 2
+        },
+        {
+          "year_month": "2026-03",
+          "category_name": "パートナーシップ",
+          "count": 3
+        }
+      ],
+      "recent_releases": [
+        {
+          "date": "2026-03-19",
+          "title": "HENNGE One、採用管理システム「PERSONA」とのシングルサインオン連携開始",
+          "category": "パートナーシップ",
+          "url": "https://prtimes.jp/main/html/rd/p/000000309.000007098.html"
+        },
+        {
+          "date": "2026-03-10",
+          "title": "HENNGE One、クライアント運用管理ソフトウェア「SKYSEA Client View」と連携し、MDMを使用したデバイス証明書の発行・インストールを効率化",
+          "category": "パートナーシップ",
+          "url": "https://prtimes.jp/main/html/rd/p/000000308.000007098.html"
+        },
+        {
+          "date": "2026-03-09",
+          "title": "HENNGE、新製品発表会「HENNGE Unveiled 2026」を4月16日、都内で開催",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000307.000007098.html"
+        },
+        {
+          "date": "2026-03-03",
+          "title": "HENNGE One、パブリッククラウド「さくらのクラウド」とのシングルサインオン連携開始",
+          "category": "パートナーシップ",
+          "url": "https://prtimes.jp/main/html/rd/p/000000306.000007098.html"
+        },
+        {
+          "date": "2026-03-02",
+          "title": "HENNGE、「情シスすごろく新版」を発表",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000305.000007098.html"
+        },
+        {
+          "date": "2026-02-25",
+          "title": "HENNGE One、統合アイデンティティ保護プラットフォーム「Silverfort」とのシングルサインオン連携開始",
+          "category": "パートナーシップ",
+          "url": "https://prtimes.jp/main/html/rd/p/000000304.000007098.html"
+        },
+        {
+          "date": "2026-02-24",
+          "title": "HENNGE One、申請・承認ワークフローシステム「X’sion」とのシングルサインオン連携開始",
+          "category": "パートナーシップ",
+          "url": "https://prtimes.jp/main/html/rd/p/000000303.000007098.html"
+        },
+        {
+          "date": "2026-02-17",
+          "title": "HENNGEのユーザーコミュニティ「chameleon」、登録者数2000人を突破",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000302.000007098.html"
+        },
+        {
+          "date": "2026-02-17",
+          "title": "HENNGE One、生成AIアシスタント「Lightblue」とのシングルサインオン連携開始",
+          "category": "パートナーシップ",
+          "url": "https://prtimes.jp/main/html/rd/p/000000301.000007098.html"
+        },
+        {
+          "date": "2026-02-03",
+          "title": "HENNGE、サイバー攻撃を端末で検知するEDRと運用管理サービスに参入、侵入を防ぐ脆弱性診断まで一括提供",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000300.000007098.html"
+        }
       ]
     },
     {
       "company_id": "36528",
       "company_name": "LayerX",
-      "scored_at": "2026-03-20",
+      "scored_at": "2026-03-23",
       "volume_score": 20.0,
       "recent_activity_score": 10.0,
       "category_mix_score": 10.6,
@@ -434,6 +1425,142 @@
         }
       ],
       "monthly_releases": [
+        {
+          "year_month": "2018-11",
+          "count": 1
+        },
+        {
+          "year_month": "2018-12",
+          "count": 2
+        },
+        {
+          "year_month": "2019-10",
+          "count": 1
+        },
+        {
+          "year_month": "2019-11",
+          "count": 5
+        },
+        {
+          "year_month": "2020-02",
+          "count": 1
+        },
+        {
+          "year_month": "2020-03",
+          "count": 2
+        },
+        {
+          "year_month": "2020-04",
+          "count": 3
+        },
+        {
+          "year_month": "2020-05",
+          "count": 5
+        },
+        {
+          "year_month": "2020-06",
+          "count": 3
+        },
+        {
+          "year_month": "2020-07",
+          "count": 3
+        },
+        {
+          "year_month": "2020-08",
+          "count": 3
+        },
+        {
+          "year_month": "2020-11",
+          "count": 1
+        },
+        {
+          "year_month": "2020-12",
+          "count": 4
+        },
+        {
+          "year_month": "2021-01",
+          "count": 1
+        },
+        {
+          "year_month": "2021-06",
+          "count": 1
+        },
+        {
+          "year_month": "2021-07",
+          "count": 1
+        },
+        {
+          "year_month": "2021-09",
+          "count": 2
+        },
+        {
+          "year_month": "2021-10",
+          "count": 3
+        },
+        {
+          "year_month": "2021-12",
+          "count": 8
+        },
+        {
+          "year_month": "2022-01",
+          "count": 51
+        },
+        {
+          "year_month": "2022-02",
+          "count": 4
+        },
+        {
+          "year_month": "2022-03",
+          "count": 8
+        },
+        {
+          "year_month": "2022-04",
+          "count": 7
+        },
+        {
+          "year_month": "2022-05",
+          "count": 5
+        },
+        {
+          "year_month": "2022-06",
+          "count": 8
+        },
+        {
+          "year_month": "2022-07",
+          "count": 8
+        },
+        {
+          "year_month": "2022-08",
+          "count": 7
+        },
+        {
+          "year_month": "2022-09",
+          "count": 8
+        },
+        {
+          "year_month": "2022-10",
+          "count": 5
+        },
+        {
+          "year_month": "2022-11",
+          "count": 5
+        },
+        {
+          "year_month": "2022-12",
+          "count": 16
+        },
+        {
+          "year_month": "2023-01",
+          "count": 5
+        },
+        {
+          "year_month": "2023-02",
+          "count": 7
+        },
+        {
+          "year_month": "2023-03",
+          "count": 13
+        },
         {
           "year_month": "2023-04",
           "count": 7
@@ -578,12 +1705,369 @@
           "year_month": "2026-03",
           "count": 5
         }
+      ],
+      "category_distribution": [
+        {
+          "category_name": "その他",
+          "count": 275
+        },
+        {
+          "category_name": "導入事例",
+          "count": 85
+        },
+        {
+          "category_name": "新製品・新サービス",
+          "count": 80
+        },
+        {
+          "category_name": "パートナーシップ",
+          "count": 47
+        },
+        {
+          "category_name": "資金調達",
+          "count": 18
+        },
+        {
+          "category_name": "受賞・認定",
+          "count": 12
+        },
+        {
+          "category_name": "採用",
+          "count": 9
+        },
+        {
+          "category_name": "上場",
+          "count": 5
+        },
+        {
+          "category_name": "M&A",
+          "count": 1
+        }
+      ],
+      "category_monthly": [
+        {
+          "year_month": "2025-03",
+          "category_name": "導入事例",
+          "count": 3
+        },
+        {
+          "year_month": "2025-04",
+          "category_name": "M&A",
+          "count": 1
+        },
+        {
+          "year_month": "2025-04",
+          "category_name": "その他",
+          "count": 6
+        },
+        {
+          "year_month": "2025-04",
+          "category_name": "導入事例",
+          "count": 3
+        },
+        {
+          "year_month": "2025-04",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        },
+        {
+          "year_month": "2025-05",
+          "category_name": "その他",
+          "count": 6
+        },
+        {
+          "year_month": "2025-05",
+          "category_name": "パートナーシップ",
+          "count": 2
+        },
+        {
+          "year_month": "2025-05",
+          "category_name": "導入事例",
+          "count": 5
+        },
+        {
+          "year_month": "2025-05",
+          "category_name": "新製品・新サービス",
+          "count": 2
+        },
+        {
+          "year_month": "2025-06",
+          "category_name": "新製品・新サービス",
+          "count": 4
+        },
+        {
+          "year_month": "2025-06",
+          "category_name": "上場",
+          "count": 1
+        },
+        {
+          "year_month": "2025-06",
+          "category_name": "導入事例",
+          "count": 4
+        },
+        {
+          "year_month": "2025-06",
+          "category_name": "その他",
+          "count": 9
+        },
+        {
+          "year_month": "2025-06",
+          "category_name": "パートナーシップ",
+          "count": 1
+        },
+        {
+          "year_month": "2025-07",
+          "category_name": "その他",
+          "count": 9
+        },
+        {
+          "year_month": "2025-07",
+          "category_name": "導入事例",
+          "count": 6
+        },
+        {
+          "year_month": "2025-07",
+          "category_name": "新製品・新サービス",
+          "count": 3
+        },
+        {
+          "year_month": "2025-08",
+          "category_name": "その他",
+          "count": 2
+        },
+        {
+          "year_month": "2025-08",
+          "category_name": "受賞・認定",
+          "count": 1
+        },
+        {
+          "year_month": "2025-08",
+          "category_name": "導入事例",
+          "count": 4
+        },
+        {
+          "year_month": "2025-08",
+          "category_name": "採用",
+          "count": 1
+        },
+        {
+          "year_month": "2025-08",
+          "category_name": "新製品・新サービス",
+          "count": 3
+        },
+        {
+          "year_month": "2025-09",
+          "category_name": "採用",
+          "count": 1
+        },
+        {
+          "year_month": "2025-09",
+          "category_name": "資金調達",
+          "count": 1
+        },
+        {
+          "year_month": "2025-09",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        },
+        {
+          "year_month": "2025-09",
+          "category_name": "導入事例",
+          "count": 2
+        },
+        {
+          "year_month": "2025-09",
+          "category_name": "受賞・認定",
+          "count": 1
+        },
+        {
+          "year_month": "2025-09",
+          "category_name": "上場",
+          "count": 1
+        },
+        {
+          "year_month": "2025-09",
+          "category_name": "パートナーシップ",
+          "count": 2
+        },
+        {
+          "year_month": "2025-09",
+          "category_name": "その他",
+          "count": 4
+        },
+        {
+          "year_month": "2025-10",
+          "category_name": "その他",
+          "count": 4
+        },
+        {
+          "year_month": "2025-10",
+          "category_name": "パートナーシップ",
+          "count": 1
+        },
+        {
+          "year_month": "2025-10",
+          "category_name": "導入事例",
+          "count": 5
+        },
+        {
+          "year_month": "2025-10",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        },
+        {
+          "year_month": "2025-11",
+          "category_name": "その他",
+          "count": 2
+        },
+        {
+          "year_month": "2025-11",
+          "category_name": "導入事例",
+          "count": 3
+        },
+        {
+          "year_month": "2025-11",
+          "category_name": "資金調達",
+          "count": 1
+        },
+        {
+          "year_month": "2025-12",
+          "category_name": "新製品・新サービス",
+          "count": 7
+        },
+        {
+          "year_month": "2025-12",
+          "category_name": "導入事例",
+          "count": 2
+        },
+        {
+          "year_month": "2025-12",
+          "category_name": "受賞・認定",
+          "count": 1
+        },
+        {
+          "year_month": "2025-12",
+          "category_name": "その他",
+          "count": 3
+        },
+        {
+          "year_month": "2026-01",
+          "category_name": "その他",
+          "count": 3
+        },
+        {
+          "year_month": "2026-01",
+          "category_name": "受賞・認定",
+          "count": 1
+        },
+        {
+          "year_month": "2026-01",
+          "category_name": "導入事例",
+          "count": 2
+        },
+        {
+          "year_month": "2026-01",
+          "category_name": "新製品・新サービス",
+          "count": 6
+        },
+        {
+          "year_month": "2026-02",
+          "category_name": "その他",
+          "count": 2
+        },
+        {
+          "year_month": "2026-02",
+          "category_name": "導入事例",
+          "count": 3
+        },
+        {
+          "year_month": "2026-02",
+          "category_name": "新製品・新サービス",
+          "count": 2
+        },
+        {
+          "year_month": "2026-03",
+          "category_name": "その他",
+          "count": 1
+        },
+        {
+          "year_month": "2026-03",
+          "category_name": "導入事例",
+          "count": 2
+        },
+        {
+          "year_month": "2026-03",
+          "category_name": "新製品・新サービス",
+          "count": 2
+        }
+      ],
+      "recent_releases": [
+        {
+          "date": "2026-03-18",
+          "title": "LayerX、「バクラク給与」を正式リリース。給与計算の“前後”にある周辺業務をシステム内で一元化・自動化し、業務の属人化を解消",
+          "category": "新製品・新サービス",
+          "url": "https://prtimes.jp/main/html/rd/p/000000595.000036528.html"
+        },
+        {
+          "date": "2026-03-18",
+          "title": "LayerX、ARR100億円を達成——AIエージェント事業が成長を牽引",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000599.000036528.html"
+        },
+        {
+          "date": "2026-03-09",
+          "title": "ＪＡ三井リース、年間1.8万件の見積書登録業務に「Ai Workforce リースソリューション」を導入。5割の作業時間削減を目指す。",
+          "category": "導入事例",
+          "url": "https://prtimes.jp/main/html/rd/p/000000590.000036528.html"
+        },
+        {
+          "date": "2026-03-05",
+          "title": "オリンパスマーケティング株式会社が「バクラク」を導入。納品書発行業務をデジタル化し、郵送作業ゼロと配送リードタイムの解消を実現",
+          "category": "導入事例",
+          "url": "https://prtimes.jp/main/html/rd/p/000000587.000036528.html"
+        },
+        {
+          "date": "2026-03-03",
+          "title": "LayerX、バクラク勤怠において「AIシフト変換機能」を提供開始。シフト表アップロードだけで勤務予定を自動変換、手作業での形式変換が不要に",
+          "category": "新製品・新サービス",
+          "url": "https://prtimes.jp/main/html/rd/p/000000591.000036528.html"
+        },
+        {
+          "date": "2026-02-26",
+          "title": "医療法人良秀会グループが「バクラク受領代行」を導入。95%以上の電子請求書受領を委託し属人化を解消、バックオフィスの標準化を実現",
+          "category": "導入事例",
+          "url": "https://prtimes.jp/main/html/rd/p/000000589.000036528.html"
+        },
+        {
+          "date": "2026-02-25",
+          "title": "株式会社ふくおかフィナンシャルグループ19社が「バクラク」を導入。経理業務を標準化し、属人化解消とガバナンス強化を目指す",
+          "category": "導入事例",
+          "url": "https://prtimes.jp/main/html/rd/p/000000585.000036528.html"
+        },
+        {
+          "date": "2026-02-19",
+          "title": "LayerXが開発する「Ai Workforce」、三菱ＵＦＪ銀行に行内外データと連携したAIエージェントデータ基盤を提供開始。提案書自動生成により、年間20万時間の削減を目指す",
+          "category": "新製品・新サービス",
+          "url": "https://prtimes.jp/main/html/rd/p/000000588.000036528.html"
+        },
+        {
+          "date": "2026-02-12",
+          "title": "LayerXが開発するAi Workforce、法務領域に進出。300ページ超の長文・複雑な契約書に対応する「Ai Workforce 契約書ソリューション」を提供開始。",
+          "category": "新製品・新サービス",
+          "url": "https://prtimes.jp/main/html/rd/p/000000583.000036528.html"
+        },
+        {
+          "date": "2026-02-11",
+          "title": "LayerXのデータエンジニアが「2026 Snowflake Data Superheroes」に選出",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000581.000036528.html"
+        }
       ]
     },
     {
       "company_id": "49627",
       "company_name": "Sansan",
-      "scored_at": "2026-03-20",
+      "scored_at": "2026-03-23",
       "volume_score": 19.5,
       "recent_activity_score": 10.0,
       "category_mix_score": 6.5,
@@ -627,6 +2111,174 @@
         }
       ],
       "monthly_releases": [
+        {
+          "year_month": "2019-10",
+          "count": 8
+        },
+        {
+          "year_month": "2019-11",
+          "count": 4
+        },
+        {
+          "year_month": "2019-12",
+          "count": 4
+        },
+        {
+          "year_month": "2020-01",
+          "count": 3
+        },
+        {
+          "year_month": "2020-02",
+          "count": 7
+        },
+        {
+          "year_month": "2020-03",
+          "count": 6
+        },
+        {
+          "year_month": "2020-04",
+          "count": 3
+        },
+        {
+          "year_month": "2020-05",
+          "count": 7
+        },
+        {
+          "year_month": "2020-06",
+          "count": 8
+        },
+        {
+          "year_month": "2020-07",
+          "count": 5
+        },
+        {
+          "year_month": "2020-08",
+          "count": 10
+        },
+        {
+          "year_month": "2020-09",
+          "count": 11
+        },
+        {
+          "year_month": "2020-10",
+          "count": 11
+        },
+        {
+          "year_month": "2020-11",
+          "count": 12
+        },
+        {
+          "year_month": "2020-12",
+          "count": 18
+        },
+        {
+          "year_month": "2021-01",
+          "count": 8
+        },
+        {
+          "year_month": "2021-02",
+          "count": 8
+        },
+        {
+          "year_month": "2021-03",
+          "count": 3
+        },
+        {
+          "year_month": "2021-04",
+          "count": 11
+        },
+        {
+          "year_month": "2021-05",
+          "count": 4
+        },
+        {
+          "year_month": "2021-06",
+          "count": 7
+        },
+        {
+          "year_month": "2021-07",
+          "count": 15
+        },
+        {
+          "year_month": "2021-08",
+          "count": 12
+        },
+        {
+          "year_month": "2021-09",
+          "count": 12
+        },
+        {
+          "year_month": "2021-10",
+          "count": 10
+        },
+        {
+          "year_month": "2021-11",
+          "count": 20
+        },
+        {
+          "year_month": "2021-12",
+          "count": 6
+        },
+        {
+          "year_month": "2022-01",
+          "count": 8
+        },
+        {
+          "year_month": "2022-02",
+          "count": 5
+        },
+        {
+          "year_month": "2022-03",
+          "count": 5
+        },
+        {
+          "year_month": "2022-04",
+          "count": 16
+        },
+        {
+          "year_month": "2022-05",
+          "count": 4
+        },
+        {
+          "year_month": "2022-06",
+          "count": 11
+        },
+        {
+          "year_month": "2022-07",
+          "count": 13
+        },
+        {
+          "year_month": "2022-08",
+          "count": 7
+        },
+        {
+          "year_month": "2022-09",
+          "count": 9
+        },
+        {
+          "year_month": "2022-10",
+          "count": 16
+        },
+        {
+          "year_month": "2022-11",
+          "count": 7
+        },
+        {
+          "year_month": "2022-12",
+          "count": 11
+        },
+        {
+          "year_month": "2023-01",
+          "count": 7
+        },
+        {
+          "year_month": "2023-02",
+          "count": 5
+        },
+        {
+          "year_month": "2023-03",
+          "count": 10
+        },
         {
           "year_month": "2023-04",
           "count": 14
@@ -771,12 +2423,340 @@
           "year_month": "2026-03",
           "count": 7
         }
+      ],
+      "category_distribution": [
+        {
+          "category_name": "その他",
+          "count": 454
+        },
+        {
+          "category_name": "導入事例",
+          "count": 109
+        },
+        {
+          "category_name": "パートナーシップ",
+          "count": 73
+        },
+        {
+          "category_name": "新製品・新サービス",
+          "count": 43
+        },
+        {
+          "category_name": "採用",
+          "count": 24
+        },
+        {
+          "category_name": "受賞・認定",
+          "count": 24
+        },
+        {
+          "category_name": "資金調達",
+          "count": 11
+        },
+        {
+          "category_name": "上場",
+          "count": 1
+        }
+      ],
+      "category_monthly": [
+        {
+          "year_month": "2025-03",
+          "category_name": "その他",
+          "count": 2
+        },
+        {
+          "year_month": "2025-03",
+          "category_name": "導入事例",
+          "count": 1
+        },
+        {
+          "year_month": "2025-03",
+          "category_name": "採用",
+          "count": 1
+        },
+        {
+          "year_month": "2025-03",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        },
+        {
+          "year_month": "2025-04",
+          "category_name": "その他",
+          "count": 7
+        },
+        {
+          "year_month": "2025-04",
+          "category_name": "パートナーシップ",
+          "count": 4
+        },
+        {
+          "year_month": "2025-04",
+          "category_name": "導入事例",
+          "count": 3
+        },
+        {
+          "year_month": "2025-05",
+          "category_name": "資金調達",
+          "count": 1
+        },
+        {
+          "year_month": "2025-05",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        },
+        {
+          "year_month": "2025-05",
+          "category_name": "導入事例",
+          "count": 1
+        },
+        {
+          "year_month": "2025-05",
+          "category_name": "受賞・認定",
+          "count": 1
+        },
+        {
+          "year_month": "2025-05",
+          "category_name": "パートナーシップ",
+          "count": 1
+        },
+        {
+          "year_month": "2025-05",
+          "category_name": "その他",
+          "count": 8
+        },
+        {
+          "year_month": "2025-06",
+          "category_name": "その他",
+          "count": 6
+        },
+        {
+          "year_month": "2025-06",
+          "category_name": "導入事例",
+          "count": 3
+        },
+        {
+          "year_month": "2025-07",
+          "category_name": "その他",
+          "count": 8
+        },
+        {
+          "year_month": "2025-07",
+          "category_name": "パートナーシップ",
+          "count": 1
+        },
+        {
+          "year_month": "2025-07",
+          "category_name": "導入事例",
+          "count": 1
+        },
+        {
+          "year_month": "2025-07",
+          "category_name": "採用",
+          "count": 1
+        },
+        {
+          "year_month": "2025-08",
+          "category_name": "導入事例",
+          "count": 1
+        },
+        {
+          "year_month": "2025-08",
+          "category_name": "新製品・新サービス",
+          "count": 2
+        },
+        {
+          "year_month": "2025-08",
+          "category_name": "その他",
+          "count": 11
+        },
+        {
+          "year_month": "2025-08",
+          "category_name": "パートナーシップ",
+          "count": 1
+        },
+        {
+          "year_month": "2025-09",
+          "category_name": "その他",
+          "count": 4
+        },
+        {
+          "year_month": "2025-09",
+          "category_name": "導入事例",
+          "count": 1
+        },
+        {
+          "year_month": "2025-10",
+          "category_name": "その他",
+          "count": 3
+        },
+        {
+          "year_month": "2025-10",
+          "category_name": "パートナーシップ",
+          "count": 1
+        },
+        {
+          "year_month": "2025-10",
+          "category_name": "導入事例",
+          "count": 2
+        },
+        {
+          "year_month": "2025-10",
+          "category_name": "新製品・新サービス",
+          "count": 2
+        },
+        {
+          "year_month": "2025-11",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        },
+        {
+          "year_month": "2025-11",
+          "category_name": "導入事例",
+          "count": 1
+        },
+        {
+          "year_month": "2025-11",
+          "category_name": "資金調達",
+          "count": 1
+        },
+        {
+          "year_month": "2025-11",
+          "category_name": "その他",
+          "count": 7
+        },
+        {
+          "year_month": "2025-11",
+          "category_name": "受賞・認定",
+          "count": 1
+        },
+        {
+          "year_month": "2025-12",
+          "category_name": "その他",
+          "count": 8
+        },
+        {
+          "year_month": "2025-12",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        },
+        {
+          "year_month": "2026-01",
+          "category_name": "その他",
+          "count": 6
+        },
+        {
+          "year_month": "2026-01",
+          "category_name": "受賞・認定",
+          "count": 1
+        },
+        {
+          "year_month": "2026-01",
+          "category_name": "導入事例",
+          "count": 1
+        },
+        {
+          "year_month": "2026-01",
+          "category_name": "新製品・新サービス",
+          "count": 2
+        },
+        {
+          "year_month": "2026-02",
+          "category_name": "その他",
+          "count": 3
+        },
+        {
+          "year_month": "2026-02",
+          "category_name": "導入事例",
+          "count": 2
+        },
+        {
+          "year_month": "2026-03",
+          "category_name": "受賞・認定",
+          "count": 2
+        },
+        {
+          "year_month": "2026-03",
+          "category_name": "その他",
+          "count": 2
+        },
+        {
+          "year_month": "2026-03",
+          "category_name": "パートナーシップ",
+          "count": 2
+        },
+        {
+          "year_month": "2026-03",
+          "category_name": "採用",
+          "count": 1
+        }
+      ],
+      "recent_releases": [
+        {
+          "date": "2026-03-19",
+          "title": "日本最大級のスタートアップ展示会「Startup JAPAN 2026」4月15日・16日に開催",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000803.000049627.html"
+        },
+        {
+          "date": "2026-03-16",
+          "title": "Sansanのサービスを活用し、成果を創出した企業を表彰する「Sansan Innovation Award 2027」の募集を開始",
+          "category": "採用",
+          "url": "https://prtimes.jp/main/html/rd/p/000000802.000049627.html"
+        },
+        {
+          "date": "2026-03-13",
+          "title": "働き方に変化やイノベーションを起こした企業を表彰　　　　「Sansan Innovation Award 2026」の受賞企業を発表",
+          "category": "受賞・認定",
+          "url": "https://prtimes.jp/main/html/rd/p/000000799.000049627.html"
+        },
+        {
+          "date": "2026-03-12",
+          "title": "Sansan、「第5回日経統合報告書アワード」において優秀賞を2年連続で受賞",
+          "category": "受賞・認定",
+          "url": "https://prtimes.jp/main/html/rd/p/000000801.000049627.html"
+        },
+        {
+          "date": "2026-03-10",
+          "title": "世界最大級のピックルボールツアーが東京初上陸",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000800.000049627.html"
+        },
+        {
+          "date": "2026-03-05",
+          "title": "Sansan Data Intelligence、Salesforceと自動連携を開始。取引先データの品質を高め、戦略立案や分析の精度を向上",
+          "category": "パートナーシップ",
+          "url": "https://prtimes.jp/main/html/rd/p/000000798.000049627.html"
+        },
+        {
+          "date": "2026-03-02",
+          "title": "名刺アプリ「Eight」、スポットコンサル領域において国内最大手のビザスクとパートナー連携を開始",
+          "category": "パートナーシップ",
+          "url": "https://prtimes.jp/main/html/rd/p/000000797.000049627.html"
+        },
+        {
+          "date": "2026-02-26",
+          "title": "川崎汽船グループのケイラインロジスティックスが年間約4600時間の業務削減を見込み、Bill Oneを導入",
+          "category": "導入事例",
+          "url": "https://prtimes.jp/main/html/rd/p/000000795.000049627.html"
+        },
+        {
+          "date": "2026-02-24",
+          "title": "アイフルグループ８社でContract Oneを導入し、Sansan連携",
+          "category": "導入事例",
+          "url": "https://prtimes.jp/main/html/rd/p/000000793.000049627.html"
+        },
+        {
+          "date": "2026-02-18",
+          "title": "Sansan、「企業のAI活用に関する実態調査」を実施",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000792.000049627.html"
+        }
       ]
     },
     {
       "company_id": "13602",
       "company_name": "Chatwork(kubell)",
-      "scored_at": "2026-03-20",
+      "scored_at": "2026-03-23",
       "volume_score": 3.5,
       "recent_activity_score": 8.3,
       "category_mix_score": 14.7,
@@ -820,6 +2800,298 @@
         }
       ],
       "monthly_releases": [
+        {
+          "year_month": "2015-04",
+          "count": 1
+        },
+        {
+          "year_month": "2015-12",
+          "count": 1
+        },
+        {
+          "year_month": "2016-01",
+          "count": 2
+        },
+        {
+          "year_month": "2016-02",
+          "count": 1
+        },
+        {
+          "year_month": "2016-03",
+          "count": 3
+        },
+        {
+          "year_month": "2016-04",
+          "count": 3
+        },
+        {
+          "year_month": "2016-05",
+          "count": 2
+        },
+        {
+          "year_month": "2016-06",
+          "count": 3
+        },
+        {
+          "year_month": "2016-07",
+          "count": 1
+        },
+        {
+          "year_month": "2016-09",
+          "count": 4
+        },
+        {
+          "year_month": "2016-10",
+          "count": 1
+        },
+        {
+          "year_month": "2016-11",
+          "count": 2
+        },
+        {
+          "year_month": "2017-02",
+          "count": 2
+        },
+        {
+          "year_month": "2017-03",
+          "count": 2
+        },
+        {
+          "year_month": "2017-04",
+          "count": 3
+        },
+        {
+          "year_month": "2017-05",
+          "count": 1
+        },
+        {
+          "year_month": "2017-06",
+          "count": 2
+        },
+        {
+          "year_month": "2017-08",
+          "count": 1
+        },
+        {
+          "year_month": "2017-10",
+          "count": 2
+        },
+        {
+          "year_month": "2017-11",
+          "count": 4
+        },
+        {
+          "year_month": "2017-12",
+          "count": 3
+        },
+        {
+          "year_month": "2018-01",
+          "count": 2
+        },
+        {
+          "year_month": "2018-02",
+          "count": 2
+        },
+        {
+          "year_month": "2018-03",
+          "count": 2
+        },
+        {
+          "year_month": "2018-04",
+          "count": 2
+        },
+        {
+          "year_month": "2018-05",
+          "count": 2
+        },
+        {
+          "year_month": "2018-06",
+          "count": 3
+        },
+        {
+          "year_month": "2018-07",
+          "count": 1
+        },
+        {
+          "year_month": "2018-08",
+          "count": 2
+        },
+        {
+          "year_month": "2018-10",
+          "count": 3
+        },
+        {
+          "year_month": "2018-11",
+          "count": 3
+        },
+        {
+          "year_month": "2019-01",
+          "count": 1
+        },
+        {
+          "year_month": "2019-02",
+          "count": 2
+        },
+        {
+          "year_month": "2019-03",
+          "count": 5
+        },
+        {
+          "year_month": "2019-04",
+          "count": 1
+        },
+        {
+          "year_month": "2019-05",
+          "count": 1
+        },
+        {
+          "year_month": "2019-06",
+          "count": 1
+        },
+        {
+          "year_month": "2019-07",
+          "count": 3
+        },
+        {
+          "year_month": "2019-10",
+          "count": 2
+        },
+        {
+          "year_month": "2019-11",
+          "count": 2
+        },
+        {
+          "year_month": "2019-12",
+          "count": 4
+        },
+        {
+          "year_month": "2020-01",
+          "count": 4
+        },
+        {
+          "year_month": "2020-03",
+          "count": 9
+        },
+        {
+          "year_month": "2020-04",
+          "count": 5
+        },
+        {
+          "year_month": "2020-05",
+          "count": 1
+        },
+        {
+          "year_month": "2020-06",
+          "count": 3
+        },
+        {
+          "year_month": "2020-07",
+          "count": 8
+        },
+        {
+          "year_month": "2020-08",
+          "count": 1
+        },
+        {
+          "year_month": "2020-09",
+          "count": 2
+        },
+        {
+          "year_month": "2020-10",
+          "count": 3
+        },
+        {
+          "year_month": "2020-11",
+          "count": 5
+        },
+        {
+          "year_month": "2020-12",
+          "count": 1
+        },
+        {
+          "year_month": "2021-01",
+          "count": 3
+        },
+        {
+          "year_month": "2021-02",
+          "count": 3
+        },
+        {
+          "year_month": "2021-03",
+          "count": 4
+        },
+        {
+          "year_month": "2021-04",
+          "count": 1
+        },
+        {
+          "year_month": "2021-05",
+          "count": 4
+        },
+        {
+          "year_month": "2021-06",
+          "count": 4
+        },
+        {
+          "year_month": "2021-07",
+          "count": 1
+        },
+        {
+          "year_month": "2021-08",
+          "count": 6
+        },
+        {
+          "year_month": "2021-09",
+          "count": 5
+        },
+        {
+          "year_month": "2021-10",
+          "count": 6
+        },
+        {
+          "year_month": "2021-11",
+          "count": 1
+        },
+        {
+          "year_month": "2021-12",
+          "count": 6
+        },
+        {
+          "year_month": "2022-01",
+          "count": 2
+        },
+        {
+          "year_month": "2022-02",
+          "count": 4
+        },
+        {
+          "year_month": "2022-03",
+          "count": 6
+        },
+        {
+          "year_month": "2022-04",
+          "count": 5
+        },
+        {
+          "year_month": "2022-05",
+          "count": 4
+        },
+        {
+          "year_month": "2022-06",
+          "count": 3
+        },
+        {
+          "year_month": "2022-07",
+          "count": 3
+        },
+        {
+          "year_month": "2022-08",
+          "count": 4
+        },
+        {
+          "year_month": "2022-09",
+          "count": 6
+        },
         {
           "year_month": "2022-10",
           "count": 6
@@ -964,12 +3236,194 @@
           "year_month": "2026-03",
           "count": 1
         }
+      ],
+      "category_distribution": [
+        {
+          "category_name": "その他",
+          "count": 129
+        },
+        {
+          "category_name": "パートナーシップ",
+          "count": 74
+        },
+        {
+          "category_name": "新製品・新サービス",
+          "count": 41
+        },
+        {
+          "category_name": "導入事例",
+          "count": 31
+        },
+        {
+          "category_name": "受賞・認定",
+          "count": 23
+        },
+        {
+          "category_name": "採用",
+          "count": 7
+        },
+        {
+          "category_name": "資金調達",
+          "count": 5
+        },
+        {
+          "category_name": "M&A",
+          "count": 1
+        },
+        {
+          "category_name": "上場",
+          "count": 1
+        }
+      ],
+      "category_monthly": [
+        {
+          "year_month": "2025-06",
+          "category_name": "その他",
+          "count": 1
+        },
+        {
+          "year_month": "2025-06",
+          "category_name": "パートナーシップ",
+          "count": 1
+        },
+        {
+          "year_month": "2025-07",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        },
+        {
+          "year_month": "2025-08",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        },
+        {
+          "year_month": "2025-09",
+          "category_name": "その他",
+          "count": 1
+        },
+        {
+          "year_month": "2025-10",
+          "category_name": "その他",
+          "count": 1
+        },
+        {
+          "year_month": "2025-11",
+          "category_name": "その他",
+          "count": 1
+        },
+        {
+          "year_month": "2025-11",
+          "category_name": "パートナーシップ",
+          "count": 1
+        },
+        {
+          "year_month": "2025-12",
+          "category_name": "M&A",
+          "count": 1
+        },
+        {
+          "year_month": "2025-12",
+          "category_name": "その他",
+          "count": 1
+        },
+        {
+          "year_month": "2025-12",
+          "category_name": "受賞・認定",
+          "count": 1
+        },
+        {
+          "year_month": "2026-01",
+          "category_name": "その他",
+          "count": 3
+        },
+        {
+          "year_month": "2026-01",
+          "category_name": "採用",
+          "count": 1
+        },
+        {
+          "year_month": "2026-02",
+          "category_name": "その他",
+          "count": 4
+        },
+        {
+          "year_month": "2026-02",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        },
+        {
+          "year_month": "2026-03",
+          "category_name": "その他",
+          "count": 1
+        }
+      ],
+      "recent_releases": [
+        {
+          "date": "2026-03-19",
+          "title": "【特定業種116名調査】重要書類の4分の1が「個人PC管理」の実態。「外で見られない、見つからない」現場のストレスとセキュリティリスクを公開",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000340.000013602.html"
+        },
+        {
+          "date": "2026-02-20",
+          "title": "中小企業の約半数に「シャドーIT」の兆候。現場の「利便性」がセキュリティルールを上回る、中小企業の危うい実態が判明",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000339.000013602.html"
+        },
+        {
+          "date": "2026-02-16",
+          "title": "kubell、法人向けクラウド請求書処理サービス「Chatwork 請求書受取」提供開始",
+          "category": "新製品・新サービス",
+          "url": "https://prtimes.jp/main/html/rd/p/000000338.000013602.html"
+        },
+        {
+          "date": "2026-02-10",
+          "title": "kubellのデータエンジニアが、2026「Snowflake Data Superheroes」に選出",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000337.000013602.html"
+        },
+        {
+          "date": "2026-02-05",
+          "title": "生成AI時代の労務管理を徹底解説「労務管理DX・AIサミット2026」を開催",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000336.000013602.html"
+        },
+        {
+          "date": "2026-02-02",
+          "title": "人手不足の割合が高い業種（建設・工事業、医療・福祉業、サービス業）がデジタル化に取り組めていない実態が明らかに、課題は予算確保と教育・定着",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000332.000013602.html"
+        },
+        {
+          "date": "2026-01-29",
+          "title": "kubellストレージが運営する「セキュアSAMBA」が「2025年下半期 BOXIL資料請求数ランキング」オンラインストレージカテゴリで総合1位を獲得",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000334.000013602.html"
+        },
+        {
+          "date": "2026-01-28",
+          "title": "kubell、採用サイトを全面リニューアル「人とテクノロジーで、99.7%の働くを変える。」",
+          "category": "採用",
+          "url": "https://prtimes.jp/main/html/rd/p/000000333.000013602.html"
+        },
+        {
+          "date": "2026-01-15",
+          "title": "「システム担当者がいない」中小企業は3割弱、中小企業の5割弱が日常的な取引や情報管理に「デジタルを利用していない」",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000326.000013602.html"
+        },
+        {
+          "date": "2026-01-15",
+          "title": "社労士の未来を拓く一大イベント「社労士万博2026」を2026年2月27日に東京で開催",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000330.000013602.html"
+        }
       ]
     },
     {
       "company_id": "15987",
       "company_name": "SmartHR",
-      "scored_at": "2026-03-20",
+      "scored_at": "2026-03-23",
       "volume_score": 7.3,
       "recent_activity_score": 9.2,
       "category_mix_score": 13.7,
@@ -1013,6 +3467,278 @@
         }
       ],
       "monthly_releases": [
+        {
+          "year_month": "2015-11",
+          "count": 1
+        },
+        {
+          "year_month": "2016-01",
+          "count": 1
+        },
+        {
+          "year_month": "2016-03",
+          "count": 1
+        },
+        {
+          "year_month": "2016-05",
+          "count": 1
+        },
+        {
+          "year_month": "2016-06",
+          "count": 1
+        },
+        {
+          "year_month": "2016-08",
+          "count": 1
+        },
+        {
+          "year_month": "2016-09",
+          "count": 2
+        },
+        {
+          "year_month": "2016-10",
+          "count": 1
+        },
+        {
+          "year_month": "2016-11",
+          "count": 3
+        },
+        {
+          "year_month": "2017-05",
+          "count": 1
+        },
+        {
+          "year_month": "2017-06",
+          "count": 1
+        },
+        {
+          "year_month": "2017-07",
+          "count": 3
+        },
+        {
+          "year_month": "2017-08",
+          "count": 3
+        },
+        {
+          "year_month": "2017-11",
+          "count": 5
+        },
+        {
+          "year_month": "2017-12",
+          "count": 2
+        },
+        {
+          "year_month": "2018-01",
+          "count": 2
+        },
+        {
+          "year_month": "2018-02",
+          "count": 2
+        },
+        {
+          "year_month": "2018-05",
+          "count": 1
+        },
+        {
+          "year_month": "2018-06",
+          "count": 1
+        },
+        {
+          "year_month": "2018-07",
+          "count": 1
+        },
+        {
+          "year_month": "2018-08",
+          "count": 1
+        },
+        {
+          "year_month": "2018-09",
+          "count": 1
+        },
+        {
+          "year_month": "2018-10",
+          "count": 3
+        },
+        {
+          "year_month": "2018-11",
+          "count": 2
+        },
+        {
+          "year_month": "2019-01",
+          "count": 3
+        },
+        {
+          "year_month": "2019-03",
+          "count": 4
+        },
+        {
+          "year_month": "2019-04",
+          "count": 2
+        },
+        {
+          "year_month": "2019-05",
+          "count": 1
+        },
+        {
+          "year_month": "2019-06",
+          "count": 1
+        },
+        {
+          "year_month": "2019-07",
+          "count": 5
+        },
+        {
+          "year_month": "2019-08",
+          "count": 1
+        },
+        {
+          "year_month": "2019-09",
+          "count": 3
+        },
+        {
+          "year_month": "2019-10",
+          "count": 1
+        },
+        {
+          "year_month": "2019-11",
+          "count": 4
+        },
+        {
+          "year_month": "2019-12",
+          "count": 2
+        },
+        {
+          "year_month": "2020-02",
+          "count": 1
+        },
+        {
+          "year_month": "2020-04",
+          "count": 4
+        },
+        {
+          "year_month": "2020-05",
+          "count": 1
+        },
+        {
+          "year_month": "2020-06",
+          "count": 2
+        },
+        {
+          "year_month": "2020-07",
+          "count": 1
+        },
+        {
+          "year_month": "2020-08",
+          "count": 2
+        },
+        {
+          "year_month": "2020-09",
+          "count": 6
+        },
+        {
+          "year_month": "2020-10",
+          "count": 8
+        },
+        {
+          "year_month": "2020-11",
+          "count": 8
+        },
+        {
+          "year_month": "2020-12",
+          "count": 6
+        },
+        {
+          "year_month": "2021-01",
+          "count": 1
+        },
+        {
+          "year_month": "2021-02",
+          "count": 2
+        },
+        {
+          "year_month": "2021-03",
+          "count": 3
+        },
+        {
+          "year_month": "2021-04",
+          "count": 3
+        },
+        {
+          "year_month": "2021-05",
+          "count": 3
+        },
+        {
+          "year_month": "2021-06",
+          "count": 4
+        },
+        {
+          "year_month": "2021-07",
+          "count": 4
+        },
+        {
+          "year_month": "2021-08",
+          "count": 2
+        },
+        {
+          "year_month": "2021-09",
+          "count": 3
+        },
+        {
+          "year_month": "2021-10",
+          "count": 2
+        },
+        {
+          "year_month": "2021-11",
+          "count": 3
+        },
+        {
+          "year_month": "2021-12",
+          "count": 4
+        },
+        {
+          "year_month": "2022-01",
+          "count": 2
+        },
+        {
+          "year_month": "2022-02",
+          "count": 5
+        },
+        {
+          "year_month": "2022-03",
+          "count": 5
+        },
+        {
+          "year_month": "2022-04",
+          "count": 3
+        },
+        {
+          "year_month": "2022-05",
+          "count": 4
+        },
+        {
+          "year_month": "2022-06",
+          "count": 4
+        },
+        {
+          "year_month": "2022-07",
+          "count": 2
+        },
+        {
+          "year_month": "2022-08",
+          "count": 1
+        },
+        {
+          "year_month": "2022-09",
+          "count": 6
+        },
+        {
+          "year_month": "2022-10",
+          "count": 4
+        },
+        {
+          "year_month": "2022-11",
+          "count": 3
+        },
         {
           "year_month": "2022-12",
           "count": 4
@@ -1157,12 +3883,251 @@
           "year_month": "2026-03",
           "count": 3
         }
+      ],
+      "category_distribution": [
+        {
+          "category_name": "その他",
+          "count": 163
+        },
+        {
+          "category_name": "パートナーシップ",
+          "count": 73
+        },
+        {
+          "category_name": "新製品・新サービス",
+          "count": 43
+        },
+        {
+          "category_name": "導入事例",
+          "count": 20
+        },
+        {
+          "category_name": "受賞・認定",
+          "count": 16
+        },
+        {
+          "category_name": "採用",
+          "count": 13
+        },
+        {
+          "category_name": "資金調達",
+          "count": 6
+        }
+      ],
+      "category_monthly": [
+        {
+          "year_month": "2025-03",
+          "category_name": "その他",
+          "count": 1
+        },
+        {
+          "year_month": "2025-03",
+          "category_name": "パートナーシップ",
+          "count": 2
+        },
+        {
+          "year_month": "2025-04",
+          "category_name": "その他",
+          "count": 3
+        },
+        {
+          "year_month": "2025-04",
+          "category_name": "受賞・認定",
+          "count": 1
+        },
+        {
+          "year_month": "2025-04",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        },
+        {
+          "year_month": "2025-05",
+          "category_name": "その他",
+          "count": 2
+        },
+        {
+          "year_month": "2025-05",
+          "category_name": "パートナーシップ",
+          "count": 1
+        },
+        {
+          "year_month": "2025-05",
+          "category_name": "導入事例",
+          "count": 1
+        },
+        {
+          "year_month": "2025-06",
+          "category_name": "その他",
+          "count": 4
+        },
+        {
+          "year_month": "2025-06",
+          "category_name": "導入事例",
+          "count": 1
+        },
+        {
+          "year_month": "2025-06",
+          "category_name": "新製品・新サービス",
+          "count": 3
+        },
+        {
+          "year_month": "2025-08",
+          "category_name": "パートナーシップ",
+          "count": 1
+        },
+        {
+          "year_month": "2025-08",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        },
+        {
+          "year_month": "2025-09",
+          "category_name": "パートナーシップ",
+          "count": 1
+        },
+        {
+          "year_month": "2025-09",
+          "category_name": "その他",
+          "count": 1
+        },
+        {
+          "year_month": "2025-10",
+          "category_name": "パートナーシップ",
+          "count": 3
+        },
+        {
+          "year_month": "2025-10",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        },
+        {
+          "year_month": "2025-11",
+          "category_name": "その他",
+          "count": 2
+        },
+        {
+          "year_month": "2025-11",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        },
+        {
+          "year_month": "2025-12",
+          "category_name": "その他",
+          "count": 1
+        },
+        {
+          "year_month": "2025-12",
+          "category_name": "パートナーシップ",
+          "count": 3
+        },
+        {
+          "year_month": "2025-12",
+          "category_name": "受賞・認定",
+          "count": 1
+        },
+        {
+          "year_month": "2025-12",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        },
+        {
+          "year_month": "2026-01",
+          "category_name": "その他",
+          "count": 4
+        },
+        {
+          "year_month": "2026-02",
+          "category_name": "その他",
+          "count": 2
+        },
+        {
+          "year_month": "2026-02",
+          "category_name": "パートナーシップ",
+          "count": 1
+        },
+        {
+          "year_month": "2026-03",
+          "category_name": "導入事例",
+          "count": 1
+        },
+        {
+          "year_month": "2026-03",
+          "category_name": "その他",
+          "count": 1
+        },
+        {
+          "year_month": "2026-03",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        }
+      ],
+      "recent_releases": [
+        {
+          "date": "2026-03-18",
+          "title": "SmartHR、福利厚生サービス「働くあなたのマネーポータル」導入企業を対象に「SmartHRの自転車ほけん」を提供開始",
+          "category": "新製品・新サービス",
+          "url": "https://prtimes.jp/main/html/rd/p/000000421.000015987.html"
+        },
+        {
+          "date": "2026-03-13",
+          "title": "テクバン社と開発したデジタル社員証「Smart ID Card」をアプリストア「SmartHR Plus」にて公開",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000420.000015987.html"
+        },
+        {
+          "date": "2026-03-11",
+          "title": "三越伊勢丹ホールディングスが「SmartHR」を導入",
+          "category": "導入事例",
+          "url": "https://prtimes.jp/main/html/rd/p/000000419.000015987.html"
+        },
+        {
+          "date": "2026-02-24",
+          "title": "SmartHR、「Akerun入退室管理システム」とID管理機能で連携開始",
+          "category": "パートナーシップ",
+          "url": "https://prtimes.jp/main/html/rd/p/000000418.000015987.html"
+        },
+        {
+          "date": "2026-02-09",
+          "title": "メディア関係者の方のみご覧頂けます",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000417.000015987.html"
+        },
+        {
+          "date": "2026-02-04",
+          "title": "SmartHRのスマートフォン向けアプリが200万インストールを突破",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000416.000015987.html"
+        },
+        {
+          "date": "2026-01-19",
+          "title": "【フリーランス・業務委託管理に関する調査】約6割が「Excel・Googleスプレッドシート」でフリーランス・業務委託を管理",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000415.000015987.html"
+        },
+        {
+          "date": "2026-01-15",
+          "title": "【年末年始のセキュリティ対策に関する調査】情シス担当者の6割以上が休暇中のセキュリティに「不安」、2社に1社が長期休暇中のセキュリティのヒヤリハットを経験",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000411.000015987.html"
+        },
+        {
+          "date": "2026-01-15",
+          "title": "SmartHR、ITコンサルティング事業を展開するKICK ZA ISSUE株式会社をグループ会社化",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000412.000015987.html"
+        },
+        {
+          "date": "2026-01-15",
+          "title": "SmartHR、ISO/IEC27001:2022準拠の「情報セキュリティ管理規程サンプル」を無料公開",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000413.000015987.html"
+        }
       ]
     },
     {
       "company_id": "26386",
       "company_name": "メルカリ",
-      "scored_at": "2026-03-20",
+      "scored_at": "2026-03-23",
       "volume_score": 13.3,
       "recent_activity_score": 10.0,
       "category_mix_score": 5.6,
@@ -1206,6 +4171,262 @@
         }
       ],
       "monthly_releases": [
+        {
+          "year_month": "2017-07",
+          "count": 1
+        },
+        {
+          "year_month": "2017-08",
+          "count": 4
+        },
+        {
+          "year_month": "2017-10",
+          "count": 1
+        },
+        {
+          "year_month": "2017-11",
+          "count": 4
+        },
+        {
+          "year_month": "2017-12",
+          "count": 1
+        },
+        {
+          "year_month": "2018-02",
+          "count": 3
+        },
+        {
+          "year_month": "2018-03",
+          "count": 2
+        },
+        {
+          "year_month": "2018-04",
+          "count": 4
+        },
+        {
+          "year_month": "2018-05",
+          "count": 4
+        },
+        {
+          "year_month": "2018-06",
+          "count": 3
+        },
+        {
+          "year_month": "2018-07",
+          "count": 2
+        },
+        {
+          "year_month": "2018-08",
+          "count": 3
+        },
+        {
+          "year_month": "2018-09",
+          "count": 3
+        },
+        {
+          "year_month": "2018-10",
+          "count": 2
+        },
+        {
+          "year_month": "2018-11",
+          "count": 5
+        },
+        {
+          "year_month": "2018-12",
+          "count": 2
+        },
+        {
+          "year_month": "2019-01",
+          "count": 1
+        },
+        {
+          "year_month": "2019-02",
+          "count": 4
+        },
+        {
+          "year_month": "2019-03",
+          "count": 6
+        },
+        {
+          "year_month": "2019-04",
+          "count": 2
+        },
+        {
+          "year_month": "2019-05",
+          "count": 2
+        },
+        {
+          "year_month": "2019-06",
+          "count": 2
+        },
+        {
+          "year_month": "2019-07",
+          "count": 3
+        },
+        {
+          "year_month": "2019-08",
+          "count": 1
+        },
+        {
+          "year_month": "2019-09",
+          "count": 3
+        },
+        {
+          "year_month": "2019-10",
+          "count": 1
+        },
+        {
+          "year_month": "2019-11",
+          "count": 1
+        },
+        {
+          "year_month": "2019-12",
+          "count": 1
+        },
+        {
+          "year_month": "2020-02",
+          "count": 1
+        },
+        {
+          "year_month": "2020-03",
+          "count": 2
+        },
+        {
+          "year_month": "2020-04",
+          "count": 2
+        },
+        {
+          "year_month": "2020-05",
+          "count": 1
+        },
+        {
+          "year_month": "2020-06",
+          "count": 2
+        },
+        {
+          "year_month": "2020-07",
+          "count": 4
+        },
+        {
+          "year_month": "2020-08",
+          "count": 1
+        },
+        {
+          "year_month": "2020-09",
+          "count": 2
+        },
+        {
+          "year_month": "2020-10",
+          "count": 2
+        },
+        {
+          "year_month": "2020-11",
+          "count": 2
+        },
+        {
+          "year_month": "2020-12",
+          "count": 6
+        },
+        {
+          "year_month": "2021-02",
+          "count": 1
+        },
+        {
+          "year_month": "2021-03",
+          "count": 4
+        },
+        {
+          "year_month": "2021-04",
+          "count": 3
+        },
+        {
+          "year_month": "2021-06",
+          "count": 1
+        },
+        {
+          "year_month": "2021-07",
+          "count": 2
+        },
+        {
+          "year_month": "2021-08",
+          "count": 4
+        },
+        {
+          "year_month": "2021-09",
+          "count": 2
+        },
+        {
+          "year_month": "2021-10",
+          "count": 3
+        },
+        {
+          "year_month": "2021-11",
+          "count": 4
+        },
+        {
+          "year_month": "2021-12",
+          "count": 4
+        },
+        {
+          "year_month": "2022-01",
+          "count": 2
+        },
+        {
+          "year_month": "2022-02",
+          "count": 4
+        },
+        {
+          "year_month": "2022-03",
+          "count": 2
+        },
+        {
+          "year_month": "2022-04",
+          "count": 2
+        },
+        {
+          "year_month": "2022-05",
+          "count": 6
+        },
+        {
+          "year_month": "2022-06",
+          "count": 6
+        },
+        {
+          "year_month": "2022-07",
+          "count": 9
+        },
+        {
+          "year_month": "2022-08",
+          "count": 7
+        },
+        {
+          "year_month": "2022-09",
+          "count": 6
+        },
+        {
+          "year_month": "2022-10",
+          "count": 5
+        },
+        {
+          "year_month": "2022-11",
+          "count": 3
+        },
+        {
+          "year_month": "2022-12",
+          "count": 8
+        },
+        {
+          "year_month": "2023-01",
+          "count": 3
+        },
+        {
+          "year_month": "2023-02",
+          "count": 4
+        },
+        {
+          "year_month": "2023-03",
+          "count": 12
+        },
         {
           "year_month": "2023-04",
           "count": 11
@@ -1350,12 +4571,251 @@
           "year_month": "2026-03",
           "count": 5
         }
+      ],
+      "category_distribution": [
+        {
+          "category_name": "その他",
+          "count": 355
+        },
+        {
+          "category_name": "新製品・新サービス",
+          "count": 35
+        },
+        {
+          "category_name": "パートナーシップ",
+          "count": 27
+        },
+        {
+          "category_name": "導入事例",
+          "count": 14
+        },
+        {
+          "category_name": "受賞・認定",
+          "count": 13
+        },
+        {
+          "category_name": "資金調達",
+          "count": 5
+        },
+        {
+          "category_name": "採用",
+          "count": 3
+        }
+      ],
+      "category_monthly": [
+        {
+          "year_month": "2025-03",
+          "category_name": "採用",
+          "count": 1
+        },
+        {
+          "year_month": "2025-04",
+          "category_name": "その他",
+          "count": 2
+        },
+        {
+          "year_month": "2025-04",
+          "category_name": "新製品・新サービス",
+          "count": 3
+        },
+        {
+          "year_month": "2025-05",
+          "category_name": "その他",
+          "count": 6
+        },
+        {
+          "year_month": "2025-06",
+          "category_name": "その他",
+          "count": 7
+        },
+        {
+          "year_month": "2025-06",
+          "category_name": "パートナーシップ",
+          "count": 1
+        },
+        {
+          "year_month": "2025-06",
+          "category_name": "新製品・新サービス",
+          "count": 2
+        },
+        {
+          "year_month": "2025-07",
+          "category_name": "その他",
+          "count": 5
+        },
+        {
+          "year_month": "2025-07",
+          "category_name": "パートナーシップ",
+          "count": 1
+        },
+        {
+          "year_month": "2025-07",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        },
+        {
+          "year_month": "2025-08",
+          "category_name": "その他",
+          "count": 13
+        },
+        {
+          "year_month": "2025-08",
+          "category_name": "パートナーシップ",
+          "count": 3
+        },
+        {
+          "year_month": "2025-09",
+          "category_name": "その他",
+          "count": 1
+        },
+        {
+          "year_month": "2025-09",
+          "category_name": "パートナーシップ",
+          "count": 1
+        },
+        {
+          "year_month": "2025-10",
+          "category_name": "導入事例",
+          "count": 2
+        },
+        {
+          "year_month": "2025-10",
+          "category_name": "その他",
+          "count": 4
+        },
+        {
+          "year_month": "2025-10",
+          "category_name": "受賞・認定",
+          "count": 1
+        },
+        {
+          "year_month": "2025-11",
+          "category_name": "その他",
+          "count": 3
+        },
+        {
+          "year_month": "2025-11",
+          "category_name": "導入事例",
+          "count": 1
+        },
+        {
+          "year_month": "2025-11",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        },
+        {
+          "year_month": "2025-11",
+          "category_name": "資金調達",
+          "count": 1
+        },
+        {
+          "year_month": "2025-12",
+          "category_name": "その他",
+          "count": 5
+        },
+        {
+          "year_month": "2025-12",
+          "category_name": "パートナーシップ",
+          "count": 2
+        },
+        {
+          "year_month": "2025-12",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        },
+        {
+          "year_month": "2026-01",
+          "category_name": "導入事例",
+          "count": 1
+        },
+        {
+          "year_month": "2026-02",
+          "category_name": "その他",
+          "count": 4
+        },
+        {
+          "year_month": "2026-02",
+          "category_name": "導入事例",
+          "count": 3
+        },
+        {
+          "year_month": "2026-03",
+          "category_name": "その他",
+          "count": 4
+        },
+        {
+          "year_month": "2026-03",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        }
+      ],
+      "recent_releases": [
+        {
+          "date": "2026-03-13",
+          "title": "＜「メルカリ」トレンド通信＞ 野球日本代表編：検索数急上昇1位「吉田 正尚」選手が、大会前後で約7.3倍に。「大谷 翔平」選手は、大会期間中検索数最多と不動の人気",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000523.000026386.html"
+        },
+        {
+          "date": "2026-03-10",
+          "title": "メルペイ、「メルカード」付帯のETCカードを提供開始",
+          "category": "新製品・新サービス",
+          "url": "https://prtimes.jp/main/html/rd/p/000000522.000026386.html"
+        },
+        {
+          "date": "2026-03-04",
+          "title": "メルカリ、生成AIを活用した新たな絞り込み検索機能の提供を開始",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000516.000026386.html"
+        },
+        {
+          "date": "2026-03-03",
+          "title": "＜イベントレポート＞3日間で延べ約7,000人が来場！メルカリ、「変なフリマ」を渋谷で開催",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000520.000026386.html"
+        },
+        {
+          "date": "2026-03-03",
+          "title": "＜「メルカリ」トレンド通信＞ 花粉症対策と新生活需要を特集！空気清浄機は取引件数前年比21.5%増の「Airdog」、ハンドバッグは「COACH」「LOUIS VUITTON」の2強",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000519.000026386.html"
+        },
+        {
+          "date": "2026-02-26",
+          "title": "メルカリ、「メルカリモバイル」でau回線の提供を開始",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000517.000026386.html"
+        },
+        {
+          "date": "2026-02-24",
+          "title": "メルペイ、「ニトリネット」へのネット決済導入開始を記念して、お会計の10％ポイント還元キャンペーンを実施",
+          "category": "導入事例",
+          "url": "https://prtimes.jp/main/html/rd/p/000000512.000026386.html"
+        },
+        {
+          "date": "2026-02-20",
+          "title": "メルペイ、秋田市のキャッシュレスキャンペーンに参画",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000506.000026386.html"
+        },
+        {
+          "date": "2026-02-19",
+          "title": "メルペイ、「DMM.com」へのネット決済の本格導入開始で、お会計の20％ポイント還元キャンペーンを実施",
+          "category": "導入事例",
+          "url": "https://prtimes.jp/main/html/rd/p/000000507.000026386.html"
+        },
+        {
+          "date": "2026-02-18",
+          "title": "メルカリ、体験型イベント「変なフリマ」を2026年2月27日（金）より渋谷で期間限定開催",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000510.000026386.html"
+        }
       ]
     },
     {
       "company_id": "50142",
       "company_name": "クラウドワークス",
-      "scored_at": "2026-03-20",
+      "scored_at": "2026-03-23",
       "volume_score": 5.3,
       "recent_activity_score": 9.2,
       "category_mix_score": 10.3,
@@ -1399,6 +4859,254 @@
         }
       ],
       "monthly_releases": [
+        {
+          "year_month": "1970-01",
+          "count": 2
+        },
+        {
+          "year_month": "2014-04",
+          "count": 3
+        },
+        {
+          "year_month": "2014-05",
+          "count": 3
+        },
+        {
+          "year_month": "2014-06",
+          "count": 7
+        },
+        {
+          "year_month": "2014-07",
+          "count": 2
+        },
+        {
+          "year_month": "2014-08",
+          "count": 3
+        },
+        {
+          "year_month": "2014-09",
+          "count": 4
+        },
+        {
+          "year_month": "2014-10",
+          "count": 1
+        },
+        {
+          "year_month": "2014-11",
+          "count": 5
+        },
+        {
+          "year_month": "2014-12",
+          "count": 4
+        },
+        {
+          "year_month": "2015-01",
+          "count": 3
+        },
+        {
+          "year_month": "2015-02",
+          "count": 1
+        },
+        {
+          "year_month": "2015-03",
+          "count": 3
+        },
+        {
+          "year_month": "2015-04",
+          "count": 3
+        },
+        {
+          "year_month": "2015-05",
+          "count": 3
+        },
+        {
+          "year_month": "2015-06",
+          "count": 1
+        },
+        {
+          "year_month": "2015-07",
+          "count": 6
+        },
+        {
+          "year_month": "2015-08",
+          "count": 3
+        },
+        {
+          "year_month": "2015-09",
+          "count": 3
+        },
+        {
+          "year_month": "2015-10",
+          "count": 6
+        },
+        {
+          "year_month": "2015-11",
+          "count": 4
+        },
+        {
+          "year_month": "2015-12",
+          "count": 5
+        },
+        {
+          "year_month": "2016-01",
+          "count": 5
+        },
+        {
+          "year_month": "2016-02",
+          "count": 5
+        },
+        {
+          "year_month": "2016-03",
+          "count": 5
+        },
+        {
+          "year_month": "2019-11",
+          "count": 1
+        },
+        {
+          "year_month": "2019-12",
+          "count": 1
+        },
+        {
+          "year_month": "2020-01",
+          "count": 3
+        },
+        {
+          "year_month": "2020-02",
+          "count": 2
+        },
+        {
+          "year_month": "2020-03",
+          "count": 5
+        },
+        {
+          "year_month": "2020-04",
+          "count": 5
+        },
+        {
+          "year_month": "2020-05",
+          "count": 4
+        },
+        {
+          "year_month": "2020-06",
+          "count": 3
+        },
+        {
+          "year_month": "2020-07",
+          "count": 4
+        },
+        {
+          "year_month": "2020-09",
+          "count": 3
+        },
+        {
+          "year_month": "2020-10",
+          "count": 4
+        },
+        {
+          "year_month": "2020-11",
+          "count": 1
+        },
+        {
+          "year_month": "2020-12",
+          "count": 2
+        },
+        {
+          "year_month": "2021-01",
+          "count": 2
+        },
+        {
+          "year_month": "2021-02",
+          "count": 2
+        },
+        {
+          "year_month": "2021-04",
+          "count": 1
+        },
+        {
+          "year_month": "2021-05",
+          "count": 5
+        },
+        {
+          "year_month": "2021-06",
+          "count": 4
+        },
+        {
+          "year_month": "2021-07",
+          "count": 2
+        },
+        {
+          "year_month": "2021-08",
+          "count": 4
+        },
+        {
+          "year_month": "2021-09",
+          "count": 4
+        },
+        {
+          "year_month": "2021-10",
+          "count": 2
+        },
+        {
+          "year_month": "2021-11",
+          "count": 5
+        },
+        {
+          "year_month": "2021-12",
+          "count": 2
+        },
+        {
+          "year_month": "2022-01",
+          "count": 4
+        },
+        {
+          "year_month": "2022-02",
+          "count": 2
+        },
+        {
+          "year_month": "2022-03",
+          "count": 8
+        },
+        {
+          "year_month": "2022-04",
+          "count": 4
+        },
+        {
+          "year_month": "2022-05",
+          "count": 1
+        },
+        {
+          "year_month": "2022-06",
+          "count": 6
+        },
+        {
+          "year_month": "2022-07",
+          "count": 4
+        },
+        {
+          "year_month": "2022-08",
+          "count": 5
+        },
+        {
+          "year_month": "2022-09",
+          "count": 1
+        },
+        {
+          "year_month": "2022-10",
+          "count": 2
+        },
+        {
+          "year_month": "2022-11",
+          "count": 4
+        },
+        {
+          "year_month": "2022-12",
+          "count": 3
+        },
+        {
+          "year_month": "2023-02",
+          "count": 5
+        },
         {
           "year_month": "2023-03",
           "count": 4
@@ -1543,12 +5251,234 @@
           "year_month": "2026-03",
           "count": 3
         }
+      ],
+      "category_distribution": [
+        {
+          "category_name": "その他",
+          "count": 211
+        },
+        {
+          "category_name": "パートナーシップ",
+          "count": 47
+        },
+        {
+          "category_name": "新製品・新サービス",
+          "count": 44
+        },
+        {
+          "category_name": "採用",
+          "count": 30
+        },
+        {
+          "category_name": "導入事例",
+          "count": 16
+        },
+        {
+          "category_name": "受賞・認定",
+          "count": 12
+        },
+        {
+          "category_name": "M&A",
+          "count": 7
+        },
+        {
+          "category_name": "資金調達",
+          "count": 3
+        },
+        {
+          "category_name": "上場",
+          "count": 1
+        }
+      ],
+      "category_monthly": [
+        {
+          "year_month": "2025-03",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        },
+        {
+          "year_month": "2025-04",
+          "category_name": "パートナーシップ",
+          "count": 1
+        },
+        {
+          "year_month": "2025-04",
+          "category_name": "採用",
+          "count": 1
+        },
+        {
+          "year_month": "2025-04",
+          "category_name": "新製品・新サービス",
+          "count": 2
+        },
+        {
+          "year_month": "2025-05",
+          "category_name": "M&A",
+          "count": 1
+        },
+        {
+          "year_month": "2025-05",
+          "category_name": "その他",
+          "count": 2
+        },
+        {
+          "year_month": "2025-05",
+          "category_name": "パートナーシップ",
+          "count": 1
+        },
+        {
+          "year_month": "2025-06",
+          "category_name": "その他",
+          "count": 4
+        },
+        {
+          "year_month": "2025-06",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        },
+        {
+          "year_month": "2025-07",
+          "category_name": "その他",
+          "count": 1
+        },
+        {
+          "year_month": "2025-07",
+          "category_name": "新製品・新サービス",
+          "count": 2
+        },
+        {
+          "year_month": "2025-08",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        },
+        {
+          "year_month": "2025-08",
+          "category_name": "パートナーシップ",
+          "count": 2
+        },
+        {
+          "year_month": "2025-09",
+          "category_name": "その他",
+          "count": 1
+        },
+        {
+          "year_month": "2025-10",
+          "category_name": "その他",
+          "count": 1
+        },
+        {
+          "year_month": "2025-10",
+          "category_name": "パートナーシップ",
+          "count": 1
+        },
+        {
+          "year_month": "2025-10",
+          "category_name": "受賞・認定",
+          "count": 1
+        },
+        {
+          "year_month": "2025-11",
+          "category_name": "新製品・新サービス",
+          "count": 1
+        },
+        {
+          "year_month": "2026-01",
+          "category_name": "その他",
+          "count": 1
+        },
+        {
+          "year_month": "2026-01",
+          "category_name": "新製品・新サービス",
+          "count": 2
+        },
+        {
+          "year_month": "2026-02",
+          "category_name": "新製品・新サービス",
+          "count": 2
+        },
+        {
+          "year_month": "2026-03",
+          "category_name": "M&A",
+          "count": 1
+        },
+        {
+          "year_month": "2026-03",
+          "category_name": "その他",
+          "count": 1
+        },
+        {
+          "year_month": "2026-03",
+          "category_name": "受賞・認定",
+          "count": 1
+        }
+      ],
+      "recent_releases": [
+        {
+          "date": "2026-03-18",
+          "title": "“AI実装、頼みたい”を叶える　クラウドワークス、20社限定・11万円～「AI実装伴走プラン」を提供",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000309.000050142.html"
+        },
+        {
+          "date": "2026-03-09",
+          "title": "クラウドワークス、厚生労働省が定める子育てサポート企業として「くるみん認定」を取得",
+          "category": "受賞・認定",
+          "url": "https://prtimes.jp/main/html/rd/p/000000307.000050142.html"
+        },
+        {
+          "date": "2026-03-03",
+          "title": "クラウドワークス、DXコンサルにグループ経営資源を集約　DXコンサル子会社がRPA子会社を吸収合併",
+          "category": "M&A",
+          "url": "https://prtimes.jp/main/html/rd/p/000000304.000050142.html"
+        },
+        {
+          "date": "2026-02-13",
+          "title": "災害時の通信確保を担う「通信インフラBCP対策ソリューション」クラウドワークス コンサルティング社、提供開始",
+          "category": "新製品・新サービス",
+          "url": "https://prtimes.jp/main/html/rd/p/000000302.000050142.html"
+        },
+        {
+          "date": "2026-02-13",
+          "title": "AI共創型サイト制作サービス「totomoni」クラウドワークス コンサルティング社、提供開始",
+          "category": "新製品・新サービス",
+          "url": "https://prtimes.jp/main/html/rd/p/000000303.000050142.html"
+        },
+        {
+          "date": "2026-01-30",
+          "title": "クラウドワークス、地方自治体・地域事業者の課題解決を支援する「地域活性コンシェルジュ」を提供開始",
+          "category": "新製品・新サービス",
+          "url": "https://prtimes.jp/main/html/rd/p/000000301.000050142.html"
+        },
+        {
+          "date": "2026-01-20",
+          "title": "クラウドワークス コンサルティング社、SD-WAN＋SASEによる「次世代ネットワーク・インフラ構築支援プログラム」提供開始",
+          "category": "新製品・新サービス",
+          "url": "https://prtimes.jp/main/html/rd/p/000000300.000050142.html"
+        },
+        {
+          "date": "2026-01-08",
+          "title": "クラウドワークス、第三者機関の比較調査において「仕事発注数」「フリーランス登録数」でNo.1を獲得",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000298.000050142.html"
+        },
+        {
+          "date": "2025-11-14",
+          "title": "働き方をデータで最適化する「クラウドログ」 予定工数と進捗実績を可視化する『進捗管理機能』リリース",
+          "category": "新製品・新サービス",
+          "url": "https://prtimes.jp/main/html/rd/p/000000296.000050142.html"
+        },
+        {
+          "date": "2025-10-30",
+          "title": "生産性向上SaaS「クラウドログ」、クラウド人事労務ソフト「SmartHR」のID管理機能と連携開始",
+          "category": "パートナーシップ",
+          "url": "https://prtimes.jp/main/html/rd/p/000000295.000050142.html"
+        }
       ]
     },
     {
       "company_id": "30115",
       "company_name": "freee",
-      "scored_at": "2026-03-20",
+      "scored_at": "2026-03-23",
       "volume_score": 0.0,
       "recent_activity_score": 0.0,
       "category_mix_score": 0.0,
@@ -1579,6 +5509,33 @@
         {
           "year_month": "2018-03",
           "count": 1
+        }
+      ],
+      "category_distribution": [
+        {
+          "category_name": "その他",
+          "count": 3
+        }
+      ],
+      "category_monthly": [],
+      "recent_releases": [
+        {
+          "date": "2018-03-17",
+          "title": "夢アド京佳による「アナタの忘れたい思い出の品を握り潰す」剛腕アイドル握手会開催！最新テクノロジーで、アイドルはどこまで無敵になれたのか…。",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000004.000030115.html"
+        },
+        {
+          "date": "2018-01-30",
+          "title": "クラウド会計ソフト「freee」が手掛ける企画プロジェクトのお知らせ",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000002.000030115.html"
+        },
+        {
+          "date": "2018-01-30",
+          "title": "家庭の味を防災食に！避難先でのストレスフルな毎日に日常を！阪神大震災前日に大阪にて第１回・防災食料理教室を初開催！",
+          "category": "その他",
+          "url": "https://prtimes.jp/main/html/rd/p/000000003.000030115.html"
         }
       ]
     }
